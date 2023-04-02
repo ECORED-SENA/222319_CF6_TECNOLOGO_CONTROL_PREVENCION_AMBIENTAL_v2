@@ -222,6 +222,10 @@
       .col-10.my-3
         p(data-aos="fade-down").mb-0 Por lo tanto, la importancia de la cadena de custodia es garantizar el soporte de los datos y conclusiones a los que se llegue con el estudio o ensayo de muestreo de forma adecuada en una situación legal o reglamentaria, que busca mantener registros que certifiquen que los procedimientos fueron desarrollados según condiciones técnicas y que los resultados son verídicos y fiables (ICONTEC, 2004, p.3).
 
+    Separador 
+    #t_7_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 7.4 La entrega al laboratorio
+
     .row.justify-content-center.align-items-center.mb-5   
       .col-lg-10.bg4.p-0(data-aos="zoom-in")
         .row.justify-content-center.align-items-start.px-5.pt-5 
