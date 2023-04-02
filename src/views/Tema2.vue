@@ -94,8 +94,8 @@
     .row.justify-content-between.mx-0.bg7.mb-5
       .col-auto.p-0
         img(data-aos="zoom-in")(src='@/assets/curso/temas/21.svg', alt='')
-      .col-10.pe-4.ps-0
-        .bgw.p-4.my-4
+      .col
+        .bgw.p-4.my-4.me-2
           p(data-aos="fade-down") #[b Resolución 1541 de 2013:] Por la cual se establecen los niveles permisibles de calidad del aire o de inmisión, el procedimiento para la evaluación de actividades que generan olores ofensivos y se dictan otras disposiciones. 
 
           p(data-aos="fade-down") #[b Resolución 2087 de 2014:] Por la cual se adopta el protocolo para el monitoreo, control y vigilancia de olores ofensivos. 
@@ -107,40 +107,40 @@
         ul.lista-ul(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores.
+            | #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores.
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 4503 ]Análisis sensorial metodología. Iniciación y entrenamiento de evaluadores en la detección y reconocimiento de olores. 
+            | #[b NTC 4503 ]Análisis sensorial metodología. Iniciación y entrenamiento de evaluadores en la detección y reconocimiento de olores. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 4770 ]Calidad del agua; determinación del olor; método de umbral de olor NTC 838 pinturas; disolventes y diluyentes; identificación y determinación del olor. 
+            | #[b NTC 4770 ]Calidad del agua; determinación del olor; método de umbral de olor NTC 838 pinturas; disolventes y diluyentes; identificación y determinación del olor. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 958 ]Agua potable; determinación del olor y del sabor. 
+            | #[b NTC 958 ]Agua potable; determinación del olor y del sabor. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 5602 ]Determinación del olor de los adhesivos.
+            | #[b NTC 5602 ]Determinación del olor de los adhesivos.
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 5880 ]Calidad del aire; determinación de la concentración de olor por olfatometría dinámica. 
+            | #[b NTC 5880 ]Calidad del aire; determinación de la concentración de olor por olfatometría dinámica. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores. Cuestionarios. 
+            | #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores. Cuestionarios. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6012-2 ]Efectos y evaluación de olores; determinación de parámetros de molestia mediante preguntas breves repetidas, a panelistas de un vecindario. 
+            | #[b NTC 6012-2 ]Efectos y evaluación de olores; determinación de parámetros de molestia mediante preguntas breves repetidas, a panelistas de un vecindario. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6049-1 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles; medición de malla.
+            | #[b NTC 6049-1 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles; medición de malla.
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6049-2 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles. Medición de pluma. 
+            | #[b NTC 6049-2 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles. Medición de pluma. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6049-3 ]Medición de impacto de olor mediante inspección en campo; determinación de intensidad de olor y tono hedónico de olor. 
+            | #[b NTC 6049-3 ]Medición de impacto de olor mediante inspección en campo; determinación de intensidad de olor y tono hedónico de olor. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b NTC 6049-4 ]Determinación del tono hedónico del olor; perfiles de polaridad.                  
+            | #[b NTC 6049-4 ]Determinación del tono hedónico del olor; perfiles de polaridad.                  
       .col-lg-4.my-3          
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.png', alt='')
 
@@ -244,13 +244,13 @@
                     ul.lista-ul.mb-0(data-aos="fade-down")
                       li 
                         i.fas.fa-check.c1
-                        h5.mb-0 Tan similar como sea posible a la población global a analizar
+                        | #[b Tan similar como sea posible a la población global a analizar]
                       li 
                         i.fas.fa-check.c1
-                        h5.mb-0 Poseer sus características esenciales
+                        | #[b Poseer sus características esenciales]
                       li.mb-0 
                         i.fas.fa-check.c1
-                        h5.mb-0 Ser reproducible 
+                        | #[b Ser reproducible] 
               p(data-aos="fade-down") Para conseguir este resultado es necesario seleccionar subáreas y métodos de toma de muestra con base en criterios estadísticos y/o la experiencia previa.
 
               p(data-aos="fade-down") Al aumentar el número y volumen de las muestras, aumenta la representatividad, pero las consideraciones económicas y de conveniencia introducirán límites en ambos, ya que no se pueden manejar y transportar toneladas de muestra, y que al final, la técnica analítica a emplear limitará aún más la cantidad de la muestra para análisis.

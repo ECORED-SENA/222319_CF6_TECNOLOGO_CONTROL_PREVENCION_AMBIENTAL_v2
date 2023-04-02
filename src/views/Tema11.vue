@@ -26,15 +26,15 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Un gran número de especies (agar nutritivo, caldo ordinario, agar de Sabouraud).
+              | Un gran número de especies (agar nutritivo, caldo ordinario, agar de Sabouraud).
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Determinados microorganismos (impidiendo el desarrollo de otros), son los denominados medios selectivos.
+              | Determinados microorganismos (impidiendo el desarrollo de otros), son los denominados medios selectivos.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Otros, en cambio, se desarrollan para el estudio de determinadas pruebas fisiológicas o test bioquímicos (utilización de citratos, acidificación a partir de azúcares, etc.).
+              | Otros, en cambio, se desarrollan para el estudio de determinadas pruebas fisiológicas o test bioquímicos (utilización de citratos, acidificación a partir de azúcares, etc.).
    
 
       .row.justify-content-center.align-items-center(titulo="Los medios de cultivo poseen una serie de componentes") 
@@ -45,11 +45,11 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Indispensables: se incluye el agua, nutrientes orgánicos (hidratos de carbono, aminoácidos, vitaminas, etc.) y nutrientes inorgánicos (P, Fe, N, Mg, S, etc.).
+              | Indispensables: se incluye el agua, nutrientes orgánicos (hidratos de carbono, aminoácidos, vitaminas, etc.) y nutrientes inorgánicos (P, Fe, N, Mg, S, etc.).
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Alternativos: sustancias isosmotizantes (NaCl), agente solidificante (agar-agar), tampones, indicador de pH, etc.
+              | Alternativos: sustancias isosmotizantes (NaCl), agente solidificante (agar-agar), tampones, indicador de pH, etc.
 
       .row.justify-content-center.align-items-center(titulo="Durante las prácticas se van a manejar medios de cultivo de composición muy variada y de tres tipos diferentes en cuanto a consistencia: medios sólidos, semisólidos y líquidos") 
         .col-auto
@@ -66,19 +66,19 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Objetivos concretos de la práctica.
+              | Objetivos concretos de la práctica.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Preparar medios de cultivo como soporte y fuente de nutrientes para el desarrollo de los microorganismos in vitro.
+              | Preparar medios de cultivo como soporte y fuente de nutrientes para el desarrollo de los microorganismos in vitro.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Manejar los instrumentos de uso rutinario, a la vez que imprescindibles, en el laboratorio de microbiología.
+              | Manejar los instrumentos de uso rutinario, a la vez que imprescindibles, en el laboratorio de microbiología.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Hacer un primer acercamiento a la manipulación de microorganismos. Adquirir la idea de la importancia del trabajo en condiciones de esterilidad y las técnicas más comunes para realizarlo.
+              | Hacer un primer acercamiento a la manipulación de microorganismos. Adquirir la idea de la importancia del trabajo en condiciones de esterilidad y las técnicas más comunes para realizarlo.
                                                
 
 </template>

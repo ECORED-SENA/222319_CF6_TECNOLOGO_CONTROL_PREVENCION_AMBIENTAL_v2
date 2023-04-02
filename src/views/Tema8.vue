@@ -53,25 +53,25 @@
         ul.lista-ul.mb-0.mt-3.ps-4(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Longitud
+            | #[b Longitud]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Tiempo
+            | #[b Tiempo]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Masa
+            | #[b Masa]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Intensidad de corriente eléctrica
+            | #[b Intensidad de corriente eléctrica]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Temperatura
+            | #[b Temperatura]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Cantidad de sustancia
+            | #[b Cantidad de sustancia]
           li 
             i.fas.fa-check.c2
-            h5.mb-0 Intensidad luminosa 
+            | #[b Intensidad luminosa ]
 
     p(data-aos="fade-down").mb-5 Y por otro lado existen las derivadas, que son las restantes y que pueden ser expresadas con una combinación matemática de las anteriores. Las más frecuentes son: superficie, volumen, velocidad, aceleración, densidad, frecuencia, periodo, fuerza, presión, trabajo, calor, energía, potencia, carga eléctrica, diferencia de potencial, potencial eléctrico, resistencia eléctrica, etcétera.  
 

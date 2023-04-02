@@ -161,19 +161,19 @@
             ul.lista-ul(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
-                h5.mb-0 Los elementos de protección personal 
+                | #[b Los elementos de protección personal]
               li 
                 i.fas.fa-check.c1
-                h5.mb-0 Desmuestre o recolección de la muestra
+                | #[b Desmuestre o recolección de la muestra]
               li 
                 i.fas.fa-check.c1
-                h5.mb-0 Envasado, conservación y transporte
+                | #[b Envasado, conservación y transporte]
               li 
                 i.fas.fa-check.c1
-                h5.mb-0 Preparación
+                | #[b Preparación]
               li 
                 i.fas.fa-check.c1
-                h5.mb-0 Aplicación de la técnica analítica             
+                | #[b Aplicación de la técnica analítica]
 
           .col-lg-7.my-3
             p(data-aos="fade-down") En lo que se refiere al aseguramiento de la calidad y la reproducibilidad de todo el proceso, las cinco etapas acabadas de mencionar influyen de forma diferente.

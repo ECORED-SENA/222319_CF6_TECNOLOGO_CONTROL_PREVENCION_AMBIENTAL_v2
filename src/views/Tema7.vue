@@ -191,25 +191,25 @@
         ul.lista-ul.mb-0.mt-3(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            p.mb-0 La toma de la muestra
+            | La toma de la muestra
           li 
             i.fas.fa-check.c2
-            p.mb-0 El uso del recipiente para la misma
+            | El uso del recipiente para la misma
           li 
             i.fas.fa-check.c2
-            p.mb-0 El almacenamiento temporal
+            | El almacenamiento temporal
           li 
             i.fas.fa-check.c2
-            p.mb-0 El transporte al laboratorio
+            | El transporte al laboratorio
           li 
             i.fas.fa-check.c2
-            p.mb-0 Almacenamiento en el laboratorio
+            | Almacenamiento en el laboratorio
           li 
             i.fas.fa-check.c2
-            p.mb-0 El desarrollo de los análisis
+            | El desarrollo de los análisis
           li.mb-0 
             i.fas.fa-check.c2
-            p.mb-0 El desechado de la muestra (p.51).
+            | El desechado de la muestra (p.51).
 
     .row.justify-content-start.mb-3          
       .col-auto.bg9.p-3(data-aos="flip-down")

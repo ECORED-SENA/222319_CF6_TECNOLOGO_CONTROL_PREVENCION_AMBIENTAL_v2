@@ -100,19 +100,19 @@
         ul.lista-ul.ps-5(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            p.mb-0 Ópticos – espectroscópicos
+            | Ópticos – espectroscópicos
           li 
             i.fas.fa-check.c2
-            p.mb-0 Separación 
+            | Separación 
           li 
             i.fas.fa-check.c2
-            p.mb-0 Electroquímicos
+            | Electroquímicos
           li 
             i.fas.fa-check.c2
-            p.mb-0 Radioquímicos
+            | Radioquímicos
           li 
             i.fas.fa-check.c2
-            p.mb-0 Térmicos 
+            | Térmicos 
 
     p(data-aos="fade-down").mb-5 A continuación, se pueden encontrar gráficas e imágenes que ilustran más y mejor sobre las técnicas espectroscópicas y no espectroscópicas, nuevos conceptos y nuevos elementos técnicos, referentes a los métodos instrumentales y clásicos en el análisis químico. 
 

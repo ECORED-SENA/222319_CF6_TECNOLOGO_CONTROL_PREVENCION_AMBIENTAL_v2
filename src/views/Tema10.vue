@@ -27,34 +27,34 @@
           ul.lista-ul.mb-0
             li 
               i.fas.fa-check.c1
-              p.mb-0 Su tamaño es tan reducido que son imperceptibles a simple vista.
+              | Su tamaño es tan reducido que son imperceptibles a simple vista.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Sus reacciones metabólicas son muy veloces.
+              | Sus reacciones metabólicas son muy veloces.
             li 
               i.fas.fa-check.c1
-              p.mb-0 La relación que mantienen con el medio es intensa.
+              | La relación que mantienen con el medio es intensa.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Necesitan agua para metabolizar. 
+              | Necesitan agua para metabolizar. 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Desarrollan mecanismos de dispersión y de resistencia.
+              | Desarrollan mecanismos de dispersión y de resistencia.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Tienen la capacidad de alterar el medio en el cual se encuentran.
+              | Tienen la capacidad de alterar el medio en el cual se encuentran.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Se reproducen a una gran velocidad.
+              | Se reproducen a una gran velocidad.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Su actividad es indispensable para la vida en el planeta.
+              | Su actividad es indispensable para la vida en el planeta.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Forman parte de los ciclos biogeoquímicos que se llevan a cabo en la naturaleza.
+              | Forman parte de los ciclos biogeoquímicos que se llevan a cabo en la naturaleza.
             li.mb-0 
               i.fas.fa-check.c1
-              p.mb-0 Son muy livianos, por lo que se transportan en el aire.                           
+              | Son muy livianos, por lo que se transportan en el aire.                           
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/105.png', alt='') 
 

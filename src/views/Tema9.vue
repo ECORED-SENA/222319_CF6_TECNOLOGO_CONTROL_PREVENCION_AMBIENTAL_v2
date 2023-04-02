@@ -53,25 +53,25 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Es importante identificar los elementos “no compuestos” que se encuentren en la ecuación y anotar los elementos que se hallaron.
+              | Es importante identificar los elementos “no compuestos” que se encuentren en la ecuación y anotar los elementos que se hallaron.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Registrar el número de átomos que tienen los elementos, multiplicando el coeficiente por el subíndice.
+              | Registrar el número de átomos que tienen los elementos, multiplicando el coeficiente por el subíndice.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Verificar en cuáles elementos no se tiene la misma cantidad de átomos.
+              | Verificar en cuáles elementos no se tiene la misma cantidad de átomos.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Incluir coeficientes enteros “no decimales”, donde sean necesarios para balancear la ecuación.
+              | Incluir coeficientes enteros “no decimales”, donde sean necesarios para balancear la ecuación.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Multiplicar los átomos de cada elemento indicados en su subíndice, por su coeficiente, y anotarlos.
+              | Multiplicar los átomos de cada elemento indicados en su subíndice, por su coeficiente, y anotarlos.
             li 
               i.fas.fa-check.c1
-              p.mb-0 Es importante, cuando no hay un coeficiente enfrente de la fórmula, se toma como uno.
+              | Es importante, cuando no hay un coeficiente enfrente de la fórmula, se toma como uno.
             li 
               i.fas.fa-check.c1
-              p.mb-0 En caso de que un elemento se repita más de 1 vez en los reactivos o productos, sumar los resultados de sus multiplicaciones y anotarlos.
+              | En caso de que un elemento se repita más de 1 vez en los reactivos o productos, sumar los resultados de sus multiplicaciones y anotarlos.
 
       .row.justify-content-center.align-items-center(titulo="Desarrollo inicial de una ecuación") 
         .col-auto
@@ -81,15 +81,15 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Si se observa que los átomos no están balanceados, se deben poner y cambiar coeficientes enteros “no decimales”, donde sean necesarios para balancear la ecuación.
+              | Si se observa que los átomos no están balanceados, se deben poner y cambiar coeficientes enteros “no decimales”, donde sean necesarios para balancear la ecuación.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Los coeficientes afectan a todos los elementos de la fórmula, por lo tanto, también se multiplican por sus subíndices.
+              | Los coeficientes afectan a todos los elementos de la fórmula, por lo tanto, también se multiplican por sus subíndices.
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Cuando quede el mismo número de átomos, tanto en los reactivos como en los productos, entonces la ecuación ya quedó balanceada. 
+              | Cuando quede el mismo número de átomos, tanto en los reactivos como en los productos, entonces la ecuación ya quedó balanceada. 
 
       .row.justify-content-center.align-items-center(titulo="Desarrollo final de una ecuación") 
         .col-auto
@@ -99,11 +99,11 @@
           ul.lista-ul
             li 
               i.fas.fa-check.c1
-              p.mb-0 Finalmente, la ecuación queda balanceada y se lee de la siguiente manera: un mol de ácido fosfórico reacciona con tres moles de hidróxido de potasio produciendo un mol de fosfato de potasio y tres moles de agua. (Emmanuel Asesorías, 2017)
+              | Finalmente, la ecuación queda balanceada y se lee de la siguiente manera: un mol de ácido fosfórico reacciona con tres moles de hidróxido de potasio produciendo un mol de fosfato de potasio y tres moles de agua. (Emmanuel Asesorías, 2017)
 
             li 
               i.fas.fa-check.c1
-              p.mb-0 Es muy importante tener claros estos conceptos, para ello se invita a consultar el siguiente material audiovisual para complementar los conceptos anteriormente vistos. 
+              | Es muy importante tener claros estos conceptos, para ello se invita a consultar el siguiente material audiovisual para complementar los conceptos anteriormente vistos. 
 
 
 

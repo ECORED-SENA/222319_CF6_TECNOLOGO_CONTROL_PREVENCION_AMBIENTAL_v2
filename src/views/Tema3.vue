@@ -73,28 +73,28 @@
         ul.lista-ul(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            p.mb-0 La matriz de la muestra.
+            | La matriz de la muestra.
           li 
             i.fas.fa-check.c2
-            p.mb-0 De la distribución del analito.
+            | De la distribución del analito.
           li 
             i.fas.fa-check.c2
-            p.mb-0 Del grado de homogeneidad.
+            | Del grado de homogeneidad.
           li 
             i.fas.fa-check.c2
-            p.mb-0 De la magnitud del error exigido.      
+            | De la magnitud del error exigido.      
           li 
             i.fas.fa-check.c2
-            p.mb-0 Para muestras homogéneas en el espacio y el tiempo, dependerá fundamentalmente de la etapa de determinación final y de la concentración del analito, ya que en la muestra final esta deberá superar el límite de cuantificación del método.      
+            | Para muestras homogéneas en el espacio y el tiempo, dependerá fundamentalmente de la etapa de determinación final y de la concentración del analito, ya que en la muestra final esta deberá superar el límite de cuantificación del método.      
           li 
             i.fas.fa-check.c2
-            p.mb-0 Para muestras heterogéneas, como lo menciona la Comisión Europea (2018), es necesario aplicar la estadística. En muchos casos, la complejidad de las muestras hace que un tratamiento estadístico riguroso resulte desproporcionado respecto de los objetivos, por lo que se decide el tamaño de muestra de acuerdo con la experiencia.           
+            | Para muestras heterogéneas, como lo menciona la Comisión Europea (2018), es necesario aplicar la estadística. En muchos casos, la complejidad de las muestras hace que un tratamiento estadístico riguroso resulte desproporcionado respecto de los objetivos, por lo que se decide el tamaño de muestra de acuerdo con la experiencia.           
           li 
             i.fas.fa-check.c2
-            p.mb-0 En otros casos, como ocurre en la minería, son pocos los analitos que pueden interesar y el estudio estadístico está justificado económicamente por la necesidad de caracterizar un depósito. 
+            | En otros casos, como ocurre en la minería, son pocos los analitos que pueden interesar y el estudio estadístico está justificado económicamente por la necesidad de caracterizar un depósito. 
           li 
             i.fas.fa-check.c2
-            p.mb-0 En la mayoría de las ocasiones, suelen emplearse métodos estadísticos aproximados con base en la experiencia, así ocurre con el método del coeficiente de variación. 
+            | En la mayoría de las ocasiones, suelen emplearse métodos estadísticos aproximados con base en la experiencia, así ocurre con el método del coeficiente de variación. 
 
     .row.justify-content-center.align-items-start.mb-5           
       .col-lg-7.my-3
