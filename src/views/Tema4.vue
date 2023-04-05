@@ -131,22 +131,22 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría ultravioleta visible
+                    | Espectrofotometría ultravioleta visible
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría de infrarrojo
+                    | Espectrofotometría de infrarrojo
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría de microondas
+                    | Espectrofotometría de microondas
 
                 h5.mb-3 Emisión
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría de fluorescencia
+                    | Espectrofotometría de fluorescencia
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría de fosforescencia                
+                    | Espectrofotometría de fosforescencia                
 
 
             .col-lg-4.my-3
@@ -156,25 +156,25 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espectrofotometría de absorción atómica
+                    | Espectrofotometría de absorción atómica
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espestroscopía de absorción de rayos X
+                    | Espestroscopía de absorción de rayos X
 
                 h5.mb-3 Emisión
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espestroscopía de emisión atómica (llama, arco, chispa, plasma)
+                    | Espestroscopía de emisión atómica (llama, arco, chispa, plasma)
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espestroscopía de fluorescencia atómica
+                    | Espestroscopía de fluorescencia atómica
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espestroscopía de fluorescencia de rayos X
+                    | Espestroscopía de fluorescencia de rayos X
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Espestroscopía de rayos gamma                  
+                    | Espestroscopía de rayos gamma                  
 
 
             .col-lg-4.my-3.img-b
@@ -192,26 +192,26 @@
                     ul.lista-ul
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Turbidimetría
+                        | Turbidimetría
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Nefelometría
+                        | Nefelometría
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Espectroscopía Raman
+                        | Espectroscopía Raman
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la difracción:
                     ul.lista-ul
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Difracción de rayos X
+                        | Difracción de rayos X
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Difracción de neutrones
+                        | Difracción de neutrones
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Difracción de electrones 
+                        | Difracción de electrones 
               .row                                            
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
@@ -219,23 +219,23 @@
                     ul.lista-ul
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Refractometría
+                        | Refractometría
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Interferometría          
+                        | Interferometría          
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la medida de la actividad óptica: 
                     ul.lista-ul
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Polarimetría
+                        | Polarimetría
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Espectropolarimetría
+                        | Espectropolarimetría
                       li 
                         i.lista-ul__vineta
-                        p.mb-0 Espectrometría de dicroísmo circular.
+                        | Espectrometría de dicroísmo circular.
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/47.png', alt='')                    
 
@@ -249,40 +249,40 @@
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold a. 
-                        h5.mb-0 Potenciometría
+                        | #[b Potenciometría]
                         
                   .bgw.brad.p-3
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold b. 
-                        h5.mb-0 Técnicas Voltamperométricas 
+                        | #[b Técnicas Voltamperométricas]
                     ol.lista-ol.mb-0.ps-4
                       li.mb-0 
                         span.text-bold i. 
-                        p.mb-0 Voltamperometría de barrido lineal
+                        | Voltamperometría de barrido lineal
                       li.mb-0 
                         span.text-bold ii. 
-                        p.mb-0 Voltamperometría de redisolución
+                        | Voltamperometría de redisolución
                       li.mb-0 
                         span.text-bold iii. 
-                        p.mb-0 Voltamperometría ciclica
+                        | Voltamperometría ciclica
 
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold c. 
-                        h5.mb-0 Culombiametría
+                        | #[b Culombiametría]
                     ol.lista-ol.mb-0.ps-4
                       li.mb-0 
                         span.text-bold i. 
-                        p.mb-0 Culombimetria a potencial constante
+                        | Culombimetria a potencial constante
                       li.mb-0 
                         span.text-bold i. 
-                        p.mb-0 Culombimetria a intensidad constante
+                        | Culombimetria a intensidad constante
                       li.mb-0 
                         span.text-bold i. 
-                        p.mb-0 Electrogravimetría              
+                        | Electrogravimetría              
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/48.png', alt='')             
 
@@ -328,27 +328,27 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Tienen calor definido
+                    | Tienen calor definido
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Tiene causa asignable
+                    | Tiene causa asignable
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Tiene igual signo y magnitud
+                    | Tiene igual signo y magnitud
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Afectan a la #[b EXACTITUD]    
+                    | Afectan a la #[b EXACTITUD]    
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='')               
                 ul.lista-ul.mb-0
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Errores de instrumento
+                    | Errores de instrumento
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Errores del método
+                    | Errores del método
                   li.mb-0 
                     i.lista-ul__vineta
-                    p.mb-0 Errores personales
+                    | Errores personales
             .col-lg-4.my-3
               .bgg1.p-2 
                 h5.mb-0.ps-3 Errores Aleatorios (Indeterminados)
@@ -356,13 +356,13 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 No tienen signo concreto
+                    | No tienen signo concreto
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 No pueden corregirse
+                    | No pueden corregirse
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Afectan a la #[b PRECISIÓN]   
+                    | Afectan a la #[b PRECISIÓN]   
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='') 
                 h5.mb-4 Variables no controladas:
                 p.mb-0 Parte inevitable de toda medición física o química.
