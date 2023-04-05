@@ -120,17 +120,17 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 #[b El SI también es conocido como sistema métrico], especialmente en las naciones en las que aún no se ha implantado para su uso cotidiano. Fue creado en 1960 por la Conferencia General de Pesos y Medidas, que inicialmente definió seis unidades físicas básicas. En 1971, se añadió la séptima unidad básica, el mol. 
+            | #[b El SI también es conocido como sistema métrico], especialmente en las naciones en las que aún no se ha implantado para su uso cotidiano. Fue creado en 1960 por la Conferencia General de Pesos y Medidas, que inicialmente definió seis unidades físicas básicas. En 1971, se añadió la séptima unidad básica, el mol. 
               
           li 
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 #[b Una de las principales características, y que constituye la gran ventaja del SI], es que sus unidades están basadas en fenómenos físicos fundamentales. La única excepción es la unidad de la magnitud masa, el kilogramo, que está definida como la masa del prototipo internacional del kilogramo o aquel cilindro de platino e iridio almacenado en una caja fuerte de la Oficina Internacional de Pesos y Medidas. (Universidad de Panamá, s.f.) 
+            | #[b Una de las principales características, y que constituye la gran ventaja del SI], es que sus unidades están basadas en fenómenos físicos fundamentales. La única excepción es la unidad de la magnitud masa, el kilogramo, que está definida como la masa del prototipo internacional del kilogramo o aquel cilindro de platino e iridio almacenado en una caja fuerte de la Oficina Internacional de Pesos y Medidas. (Universidad de Panamá, s.f.) 
 
           li.mb-0 
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 #[b Las unidades del SI son la referencia internacional de las indicaciones de los instrumentos de medida] y a las que están referidas a través de una cadena ininterrumpida de calibraciones o comparaciones. Esto permite alcanzar la equivalencia de las medidas realizadas por instrumentos similares, utilizados y calibrados en lugares apartados, y por ende asegurar, sin la necesidad de ensayos y mediciones duplicadas, el cumplimiento de las características de los objetos que circulan en el comercio internacional y su intercambiabilidad 
+            | #[b Las unidades del SI son la referencia internacional de las indicaciones de los instrumentos de medida] y a las que están referidas a través de una cadena ininterrumpida de calibraciones o comparaciones. Esto permite alcanzar la equivalencia de las medidas realizadas por instrumentos similares, utilizados y calibrados en lugares apartados, y por ende asegurar, sin la necesidad de ensayos y mediciones duplicadas, el cumplimiento de las características de los objetos que circulan en el comercio internacional y su intercambiabilidad 
 
     Separador 
     #t_8_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
