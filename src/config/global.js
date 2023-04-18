@@ -22,25 +22,22 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Alistamiento general y bases conceptuales',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Alistamiento',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Bases conceptuales',
             hash: 't_1_2',
@@ -49,31 +46,26 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Métodos y equipos para la toma de muestras',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Muestreo y análisis en aguas',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Muestreo y análisis en suelos',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Muestreo y análisis de olores (aire)',
             hash: 't_2_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.4',
             titulo: 'Muestreo y análisis de residuos sólidos',
             hash: 't_2_4',
@@ -82,7 +74,6 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Factores que influyen en la representatividad',
         desarrolloContenidos: true,
@@ -92,19 +83,16 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Equipos de laboratorio',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Métodos clásicos',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Métodos instrumentales',
             hash: 't_4_2',
@@ -113,7 +101,6 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Materiales de laboratorio',
         desarrolloContenidos: true,
@@ -123,43 +110,36 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Reactivos y soluciones',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Componentes de una disolución',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo: 'Importancia de las disoluciones',
             hash: 't_6_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.3',
             titulo: 'Clases de disoluciones',
             hash: 't_6_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.4',
             titulo: 'Solubilidad',
             hash: 't_6_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.5',
             titulo: 'Factores que afectan la solubilidad',
             hash: 't_6_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.6',
             titulo: 'Unidades de la concentración de las disoluciones',
             hash: 't_6_6',
@@ -168,31 +148,26 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Recepción de muestras ',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Recepción de la muestra al laboratorio (agua)',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Recepción de la muestra al laboratorio (suelo)',
             hash: 't_7_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.3',
             titulo: 'Recepción de la muestra al laboratorio (olores)',
             hash: 't_7_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.4',
             titulo: 'La entrega al laboratorio',
             hash: 't_7_4',
@@ -201,32 +176,27 @@ export default {
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Sistema internacional de medidas y notación científica',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '8.1',
             titulo: 'Unidades de medición',
             hash: 't_8_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.2',
             titulo:
               'El sistema internacional de unidades y notación científica',
             hash: 't_8_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.3',
             titulo: 'Sistema de unidades: CGS, MKS, SI, inglés',
             hash: 't_8_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.4',
             titulo: 'Conversiones de unidades',
             hash: 't_8_4',
@@ -235,7 +205,6 @@ export default {
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Balance de ecuaciones y pasos para balanceo por tanteo',
         desarrolloContenidos: true,
@@ -245,25 +214,21 @@ export default {
       },
       {
         nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
         numero: '10',
         titulo: 'Microorganismos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '10.1',
             titulo: 'Tipos de microorganismos',
             hash: 't_10_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '10.2',
             titulo: 'Microorganismos perjudiciales y beneficiosos',
             hash: 't_10_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '10.3',
             titulo: 'Ejemplos de microorganismos',
             hash: 't_10_3',
@@ -272,7 +237,6 @@ export default {
       },
       {
         nombreRuta: 'tema11',
-        icono: 'far fa-file-alt',
         numero: '11',
         titulo: 'Medios de cultivo',
         desarrolloContenidos: true,
