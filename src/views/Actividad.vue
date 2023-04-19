@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(data-aos="zoom-in")(src="@/assets/template/arrastrar.svg", alt="")
+            img(data-aos="zoom-in")(src="@/assets/template/Arrastrar_Soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="zoom-in-left")
           h2 Relacionando el pictograma
