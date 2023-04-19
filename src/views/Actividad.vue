@@ -7,12 +7,12 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar.svg", alt="")
+            img(data-aos="zoom-in")(src="@/assets/template/arrastrar.svg", alt="")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo(data-aos="zoom-in-left")
           h2 Relacionando el pictograma
-        p.mb-4 Relacionar cada pictograma con el nombre que le corresponde en el contexto del laboratorio y el análisis de muestras químicas.
-        .tarjeta.actividad.p-3
+        p(data-aos="fade-down").mb-4 Relacionar cada pictograma con el nombre que le corresponde en el contexto del laboratorio y el análisis de muestras químicas.
+        .tarjeta.actividad(data-aos="flip-down").p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
