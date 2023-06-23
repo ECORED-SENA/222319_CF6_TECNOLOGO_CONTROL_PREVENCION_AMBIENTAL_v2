@@ -304,12 +304,6 @@ export default {
     },
     {
       referencia:
-        'Facultad de Ingeniería de LUZ. (2018). <i>Cifras Significativas - Física I. Laboratorio de Física I</i>. Física I. Laboratorio de Física I.',
-      link:
-        'https://sites.google.com/site/laboratoriodefisicaifiluz/practicas-de-laboratorio/practica-no-1/cifras-significativas',
-    },
-    {
-      referencia:
         'Instituto Nacional de Salud. (2011). <i>Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo para análisis de laboratorio</i>. INS.',
       link:
         'https://www.ins.gov.co/sivicap/Documentacin SIVICAP/2011 Manual toma de muestras agua.pdf',
@@ -351,8 +345,7 @@ export default {
     {
       referencia:
         'UNPSJB. (2015). <i>Química. Guía de laboratorio Nº1</i>. UNPSJB.',
-      link:
-        'http://www.ing.unp.edu.ar/asignaturas/quimica/practicos_de_laboratorio_pdf/lab1.pdf',
+      link: 'https://www.academia.edu/38593733/CATEDRA_QU%C3%8DMICA',
     },
   ],
   glosario: [
@@ -433,14 +426,6 @@ export default {
     },
   ],
   complementario: [
-    {
-      tema: 'Factores que influyen en la representatividad',
-      referencia:
-        'La Prensa Austral. (2020, 12 julio). <i>Trabajador con graves quemaduras químicas y su lucha por volver a ver</i>. ',
-      tipo: 'Artículo',
-      link:
-        'https://archivo.laprensaaustral.cl/titular1/trabajador-con-graves-quemaduras-quimicas-y-su-lucha-por-volver-a-ver/',
-    },
     {
       tema: 'Factores que influyen en la representatividad',
       referencia:
@@ -536,7 +521,7 @@ export default {
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
           cargo: 'Evaluadora instruccional',
-          centro: '',
+          centro: 'Centro de Diseño y Metrología',
         },
         {
           nombre: 'Martha Isabel Martínez Vargas',
@@ -576,9 +561,22 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
       ],
     },
