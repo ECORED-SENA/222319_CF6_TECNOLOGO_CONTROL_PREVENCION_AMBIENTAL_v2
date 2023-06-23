@@ -48,7 +48,7 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.svg', alt='') 
 
             .col-10
-              ol.lista-ol.mb-0
+              ol.lista-ol.fa-ul.mb-0
                 li 
                   span.text-bold a. 
                   h5.mb-0 Número de código de la muestra. 
@@ -103,7 +103,7 @@
           p Las muestras deben registrarse en cuanto lleguen al laboratorio. El procedimiento de entrada y registro de la muestra es importante para los propósitos de la cadena de custodia. 
 
           p La siguiente información debe requerirse en el procedimiento de entrada y registro: 
-          ol.lista-ol.mb-0
+          ol.lista-ol.fa-ul.mb-0
             li 
               span.text-bold a. 
               h5.mb-0 Número de código de la muestra. 
@@ -128,7 +128,9 @@
         .col-11
           p Las muestras se deben entregar en el laboratorio lo más pronto posible. Es importante coordinar el envío de las muestras al laboratorio en horas convenientes, con el propósito de realizar los análisis en el horario normal de trabajo y el mismo día, si es posible.
           p A su llegada al laboratorio, si es imposible analizar las muestras de inmediato, estas se deben preservar en condiciones tales que eviten cualquier contaminación procedente del exterior del recipiente, su deterioro y que impidan cualquier cambio de su contenido. 
-          p.mb-0 Para este propósito se recomienda usar gabinetes refrigerados o fríos y lugares oscuros. Se deben manejar las muestras refrigeradas después de su llegada al laboratorio.          
+          p Para este propósito se recomienda usar gabinetes refrigerados o fríos y lugares oscuros. Se deben manejar las muestras refrigeradas después de su llegada al laboratorio.  
+
+          p.mb-0 (Instituto Nacional de Salud, 2011)        
 
     Separador 
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -169,7 +171,7 @@
           .ps-5
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 5
-              span EPrograma de muestreo de agua  
+              span Programa de muestreo de agua  
           img.img-a.img-t.mb-4.px-4(data-aos="zoom-in")(src='@/assets/curso/temas/83.svg', alt='')
           figcaption Nota. Tomada de Instituto Nacional de Salud (2011).                              
 
@@ -188,7 +190,7 @@
       .col-lg-6.p-0          
         img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/85.png', alt='')              
       .col-lg-6.p-3.j
-        ul.lista-ul.mb-0.mt-3(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-0.mt-3(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
             | La toma de la muestra
@@ -209,7 +211,7 @@
             | El desarrollo de los análisis
           li.mb-0 
             i.fas.fa-check.c2
-            | El desechado de la muestra (p.51).
+            | El desechado de la muestra (p.51)
 
     .row.justify-content-start.mb-3          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -234,21 +236,20 @@
 
             p(data-aos="fade-down") La siguiente información debe requerirse en el procedimiento de entrada y registro: 
           .col-lg-6.bg5.p-4.my-3
-            p(data-aos="fade-down") Se consideran cinco etapas del protocolo completo: 
-            ol.lista-ol.mb-0
+            ol.lista-ol.fa-ul.mb-0
               li 
                 span.text-bold a. 
                 h5.mb-0 Número de código de la muestra. 
               li 
                 span.text-bold b. 
-                h5.mb-0 Nombre de la persona prestadora, para el caso de los     laboratorios de vigilancia o los laboratorios particulares que     atienden varios clientes. 
+                h5.mb-0 Nombre de la persona prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que     atienden varios clientes. 
               li 
                 span.text-bold c. 
                 h5.mb-0 Nombre del (o los) tomador(es) de muestras. 
               li 
                 span.text-bold d. 
                 h5.mb-0 Número del método de muestreo.
-              li 
+              li.mb-0 
                 span.text-bold e. 
                 h5.mb-0 Localización de almacenamiento de la muestra.
         img(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')

@@ -9,19 +9,18 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.align-items-center.mb-4
-      .col-lg-8 
-        .row.align-items-center.mb-4    
-          .col-auto
-            img.img-a.img-t.rot(data-aos="zoom-in")(src='@/assets/curso/temas/1.svg')
-          .col-lg-10
-            p(data-aos="fade-down").mb-0 Cuando en los muestreos que se desarrollan de un trabajo de campo, se captan las muestras según el parámetro a medir, ya sea de agua, lodos, olores, entre otros, es importante conocer cuáles son los análisis y el alistamiento que se va a llevar a cabo en el laboratorio para poder establecer los pertinentes resultados del estudio.
-          .cajon.color-acento-contenido.mt-4(data-aos="flip-down")(style='background-color: #DFF2ED').p-4.mb-0
-            p.mb-0(data-aos="fade-down") La importancia del análisis de las muestras que se llevan al laboratorio radica particularmente en el tratamiento que se le dé a las mismas, desde la toma, el embalaje, el transporte y su respectiva identificación; puesto que, si la muestra laboratorio es alterada en alguno de los procesos, su posterior análisis entra en un margen de baja confiabilidad que se traduce en un resultado de poca fiabilidad.
-      .col-lg-4
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png')
-    p(data-aos="fade-down").mb-3 Por esta razón, en esta unidad temática, se profundizará en el proceso de valoración de muestras, desde el alistamiento hasta el análisis que se lleva a cabo en un laboratorio.
-    p(data-aos="fade-down").mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en alistamiento para el análisis químico de muestras, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de prevención y control ambiental.
+    .row.align-items-center.mb-4    
+      .col-lg-auto.my-3
+        img.img-a.img-t.rot(data-aos="zoom-in")(src='@/assets/curso/temas/1.svg')
+      .col-lg-10.my-3
+        p(data-aos="fade-down").mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el alistamiento para el análisis químico de muestras. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-12(data-aos="fade-left")     
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/E9qmnvMgMfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Alistamiento para el análisis químico de muestras
 
 </template>
 

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Alistamiento para el análisis químico de muestras',
     descripcionCurso:
-      'Mediante este componente, el aprendiz podrá reconocer la importancia del análisis de las muestras y el rigor técnico de dicho proceso; todo ello como insumo para generar un resultado conforme con la trazabilidad que se le dio a la muestra desde el inicio del proceso.<br>Profundizará, además, en buenas prácticas de laboratorio, manejo de EPP, condiciones de seguridad, manejo de materiales y equipos de laboratorio, entre otros, para la valoración de muestras.',
+      'En este componente, reconocerá la importancia del análisis de las muestras y el rigor técnico de dicho proceso, como insumo para generar un resultado conforme con la trazabilidad que se le dio a la muestra desde el inicio del proceso.<br>Profundizará, en buenas prácticas de laboratorio, manejo de EPP, condiciones de seguridad, manejo de materiales y equipos de laboratorio, entre otros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -273,6 +273,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -287,37 +292,37 @@ export default {
   referencias: [
     {
       referencia:
-        'Algoestadistica. (2011, 23 abril). Notación científica. Probabilidad y Estadística.',
+        'Algoestadistica. (2011, 23 abril). <i>Notación científica</i>. Probabilidad y Estadística.',
       link:
         'http://pedroprobabilidadyestadistica.blogspot.com/2011/04/notacion-cientifica.html',
     },
     {
       referencia:
-        'Comisión Europea. (2021). Métodos de muestreo para los distintos tipos de muestras - SAMANCTA.',
+        'Comisión Europea. (2021). <i>Métodos de muestreo para los distintos tipos de muestras - SAMANCTA</i>.',
       link:
         'https://ec.europa.eu/taxation_customs/dds2/SAMANCTA/ES/GeneralProcedures/SamplingMethods_ES.htm',
     },
     {
       referencia:
-        'Facultad de Ingeniería de LUZ. (2018). Cifras Significativas - Física I. Laboratorio de Física I. Física I. Laboratorio de Física I.',
+        'Facultad de Ingeniería de LUZ. (2018). <i>Cifras Significativas - Física I. Laboratorio de Física I</i>. Física I. Laboratorio de Física I.',
       link:
         'https://sites.google.com/site/laboratoriodefisicaifiluz/practicas-de-laboratorio/practica-no-1/cifras-significativas',
     },
     {
       referencia:
-        'Instituto Nacional de Salud. (2011). Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo para análisis de laboratorio. INS.',
+        'Instituto Nacional de Salud. (2011). <i>Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo para análisis de laboratorio</i>. INS.',
       link:
         'https://www.ins.gov.co/sivicap/Documentacin SIVICAP/2011 Manual toma de muestras agua.pdf',
     },
     {
       referencia:
-        'M. J. (2019, 7 enero). Molaridad y molalidad. La Guía de Química.',
+        'M. J. (2019, 7 enero). <i>Molaridad y molalidad</i>. La Guía de Química.',
       link:
         'https://quimica.laguia2000.com/general/unidades-de-concentracion-parte-1',
     },
     {
       referencia:
-        'Raffino, M. (2020, 23 julio). Microorganismo - Concepto, tipos, características y ejemplos. Concepto.de',
+        'Raffino, M. (2020, 23 julio). <i>Microorganismo - Concepto, tipos, características y ejemplos</i>. Concepto.de',
       link: 'https://concepto.de/microorganismo/',
     },
     {
@@ -328,23 +333,24 @@ export default {
     },
     {
       referencia:
-        'Universidad de Panamá. (s. f.). Sistema Internacional. Cursos de Química Analítica.',
+        'Universidad de Panamá. (s. f.). <i>Sistema Internacional</i>. Cursos de Química Analítica.',
       link:
         'https://alkemist.jimdofree.com/qm-112/sem-2-sistema-internacional/',
     },
     {
       referencia:
-        'Universidad Miguel Hernández de Elche. (s. f.). Preparación de Medios de Cultivo. Catálogo de Prácticas de Microbiología. ',
+        'Universidad Miguel Hernández de Elche. (s. f.). <i>Preparación de Medios de Cultivo</i>. Catálogo de Prácticas de Microbiología. ',
       link:
         'https://mobile.sites.google.com/a/goumh.umh.es/practicas-de-microbiologia/indice/preparacion-de-medios-de-cultivo?tmpl=%2Fsystem%2Fapp%2Ftemplates%2Fprint%2F&showPrintDialog=1',
     },
     {
       referencia:
-        'Universidad Politécnica de Cartagena. (2017). Toma y tratamiento de muestras. ',
+        'Universidad Politécnica de Cartagena. (2017). <i>Toma y tratamiento de muestras</i>. ',
       link: 'http://www.upct.es/~minaeees/toma_tratamiento_muestras.doc',
     },
     {
-      referencia: 'UNPSJB. (2015). Química. Guía de laboratorio Nº1. UNPSJB.',
+      referencia:
+        'UNPSJB. (2015). <i>Química. Guía de laboratorio Nº1</i>. UNPSJB.',
       link:
         'http://www.ing.unp.edu.ar/asignaturas/quimica/practicos_de_laboratorio_pdf/lab1.pdf',
     },
@@ -430,7 +436,7 @@ export default {
     {
       tema: 'Factores que influyen en la representatividad',
       referencia:
-        'La Prensa Austral. (2020, 12 julio). Trabajador con graves quemaduras químicas y su lucha por volver a ver. ',
+        'La Prensa Austral. (2020, 12 julio). <i>Trabajador con graves quemaduras químicas y su lucha por volver a ver</i>. ',
       tipo: 'Artículo',
       link:
         'https://archivo.laprensaaustral.cl/titular1/trabajador-con-graves-quemaduras-quimicas-y-su-lucha-por-volver-a-ver/',
@@ -438,56 +444,56 @@ export default {
     {
       tema: 'Factores que influyen en la representatividad',
       referencia:
-        'Safeplus. (2015, 3 diciembre). BPL / Buenas Prácticas de Laboratorio de la OCDE [Vídeo]. YouTube. ',
+        'Safeplus. (2015, 3 diciembre). <i>BPL / Buenas Prácticas de Laboratorio de la OCDE</i> [Vídeo]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/oXwLNsi6tAU',
     },
     {
       tema: 'Factores que influyen en la representatividad',
       referencia:
-        'Superintendencia de Riesgos del Trabajo. (2016, 2 diciembre). El etiquetado según el Sistema Globalmente Armonizado (SGA) [Vídeo]. YouTube.',
+        'Superintendencia de Riesgos del Trabajo. (2016, 2 diciembre). <i>El etiquetado según el Sistema Globalmente Armonizado (SGA)</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/lDv9Cptgio8',
     },
     {
       tema: 'Factores que influyen en la representatividad',
       referencia:
-        'Medicina Laboral. (2018, 21 agosto). ¿Qué es el Sistema Globalmente Armonizado del Decreto 1496 de 2018? [Vídeo]. YouTube.',
+        'Medicina Laboral. (2018, 21 agosto). <i>¿Qué es el Sistema Globalmente Armonizado del Decreto 1496 de 2018?</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/rSZ3E7_JChk',
     },
     {
       tema: 'Materiales de laboratorio',
       referencia:
-        'Ciencias UTP. (2018a, 25 marzo). Laboratorio N°1: Introducción a los materiales y mediciones - Parte 1 [Vídeo]. YouTube.',
+        'Ciencias UTP. (2018a, 25 marzo). <i>Laboratorio N°1: Introducción a los materiales y mediciones - Parte 1</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/KbuSX-iglXA',
     },
     {
       tema: 'Materiales de laboratorio',
       referencia:
-        'Ciencias UTP. (2018b, marzo 25). Laboratorio N°1: Introducción a los materiales y mediciones - Parte 2 [Vídeo]. YouTube.',
+        'Ciencias UTP. (2018b, marzo 25). <i>Laboratorio N°1: Introducción a los materiales y mediciones - Parte 2</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/BQ71Al120Vs',
     },
     {
       tema: 'Reactivos y soluciones',
       referencia:
-        'Echavarria, S. (2012, 28 agosto). Disoluciones Químicas [Vídeo]. YouTube. ',
+        'Echavarria, S. (2012, 28 agosto). <i>Disoluciones Químicas</i> [Vídeo]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/GrQvY70Z-1s',
     },
     {
       tema: 'Factores que afectan la solubilidad',
       referencia:
-        'Profe en c@sa. (2013, 22 septiembre). Solubilidad [Vídeo]. YouTube.',
+        'Profe en c@sa. (2013, 22 septiembre). <i>Solubilidad</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/6SF8bc1oiIE',
     },
     {
       tema: 'Balance de ecuaciones y pasos para balanceo por tanteo',
       referencia:
-        'Emmanuel Asesorías. (2017, 24 agosto). Balanceo por tanteo (muchos ejemplos paso a paso) [Vídeo]. YouTube.',
+        'Emmanuel Asesorías. (2017, 24 agosto). <i>Balanceo por tanteo (muchos ejemplos paso a paso)</i> [Vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/blrrI4LARGo',
     },
@@ -498,12 +504,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -513,9 +519,44 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructora',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Evaluadora instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Martha Isabel Martínez Vargas',
+          cargo: 'Productora audiovisual',
+          centro: 'Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro agropecuario La Granja, Regional Tolima',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya',
+          cargo: 'Acompañamiento pedagógico',
+          centro: 'Regional Tolima – Centro Agropecuario La Granja',
         },
       ],
     },
@@ -545,14 +586,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },

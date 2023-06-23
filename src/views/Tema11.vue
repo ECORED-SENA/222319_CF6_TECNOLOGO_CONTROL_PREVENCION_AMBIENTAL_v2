@@ -23,7 +23,7 @@
           img.img-a.img-t(src='@/assets/curso/temas/121.svg', alt='')
 
         .col 
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Un gran número de especies (agar nutritivo, caldo ordinario, agar de Sabouraud).
@@ -42,7 +42,7 @@
           img.img-a.img-t(src='@/assets/curso/temas/122.svg', alt='')
 
         .col 
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Indispensables: se incluye el agua, nutrientes orgánicos (hidratos de carbono, aminoácidos, vitaminas, etc.) y nutrientes inorgánicos (P, Fe, N, Mg, S, etc.).
@@ -51,19 +51,19 @@
               i.fas.fa-check.c1
               | Alternativos: sustancias isosmotizantes (NaCl), agente solidificante (agar-agar), tampones, indicador de pH, etc.
 
-      .row.justify-content-center.align-items-center(titulo="Durante las prácticas se van a manejar medios de cultivo de composición muy variada y de tres tipos diferentes en cuanto a consistencia: medios sólidos, semisólidos y líquidos") 
+      .row.justify-content-center.align-items-center(titulo="Durante las prácticas se van a manejar medios de cultivo de composición muy variada y de tres tipos diferentes en cuanto a consistencia: medios sólidos, semisólidos y líquidos.") 
         .col-auto
           img.img-a.img-t(src='@/assets/curso/temas/123.svg', alt='')
 
         .col 
           p.mb-0 Este último aspecto es importante a la hora de la preparación de estos. Aunque los medios artificiales o sintéticos se pueden preparar a partir de sus componentes individuales, se pueden adquirir comercialmente como medios deshidratados a los que solamente hay que añadir la cantidad de agua necesaria. 
 
-      .row.justify-content-center.align-items-center(titulo="El fabricante indica la composición, la caducidad y la cantidad que debe pesarse por cada litro a preparar, e incluso cómo debe esterilizarse") 
+      .row.justify-content-center.align-items-center(titulo="El fabricante indica la composición, la caducidad y la cantidad que debe pesarse por cada litro a preparar, e incluso cómo debe esterilizarse.") 
         .col-auto
           img.img-a.img-t(src='@/assets/curso/temas/124.svg', alt='')
 
         .col 
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Objetivos concretos de la práctica.
@@ -80,7 +80,7 @@
               i.fas.fa-check.c1
               | Hacer un primer acercamiento a la manipulación de microorganismos. Adquirir la idea de la importancia del trabajo en condiciones de esterilidad y las técnicas más comunes para realizarlo.
                                                
-
+          p (Universidad Miguel Hernández de Elche, s. f.)
 </template>
 
 <script>

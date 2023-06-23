@@ -11,11 +11,11 @@
       .col-lg-12.my-3
         .bg18.p-2.mb-4(data-aos="flip-down")
           .row.justify-content-evenly.align-items-center        
-            .col-auto
+            .col-auto.my-3
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/97.svg', alt='') 
 
-            .col-11
-              p(data-aos="fade-down").mb-0 Una reacción química es el proceso en el cual ocurre un cambio químico; las sustancias o elementos iniciales se llaman reactivos y las que resultan del proceso de transformación se les llama productos. Una ecuación química es la representación simbólica de las reacciones. Cuando se escribe una ecuación se emplean distintos símbolos o fórmulas de compuestos:
+            .col-11.my-3
+              p(data-aos="fade-down").mb-0 Una #[b reacción química es] el proceso en el cual ocurre un cambio químico; las sustancias o elementos iniciales se llaman #[b reactivos] y las que resultan del proceso de transformación se les llama #[b productos]. Una #[b ecuación química] es la representación simbólica de las reacciones. Cuando se escribe una ecuación se emplean distintos símbolos o fórmulas de compuestos:
 
     .row.mb-5.text-center
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-left")
@@ -50,7 +50,7 @@
           img.img-a.img-t(src='@/assets/curso/temas/101.svg', alt='')
 
         .col 
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Es importante identificar los elementos “no compuestos” que se encuentren en la ecuación y anotar los elementos que se hallaron.
@@ -71,14 +71,15 @@
               | Es importante, cuando no hay un coeficiente enfrente de la fórmula, se toma como uno.
             li 
               i.fas.fa-check.c1
-              | En caso de que un elemento se repita más de 1 vez en los reactivos o productos, sumar los resultados de sus multiplicaciones y anotarlos.
+              p.mb-0 En caso de que un elemento se repita más de 1 vez en los reactivos o productos, #[b sumar los resultados de sus multiplicaciones y anotarlos].
+          p.mb-0  (Emmanuel Asesorías, 2017)               
 
       .row.justify-content-center.align-items-center(titulo="Desarrollo inicial de una ecuación") 
         .col-auto
           img.img-a.img-t(src='@/assets/curso/temas/102.svg', alt='')
 
         .col 
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Si se observa que los átomos no están balanceados, se deben poner y cambiar coeficientes enteros “no decimales”, donde sean necesarios para balancear la ecuación.
@@ -91,12 +92,13 @@
               i.fas.fa-check.c1
               | Cuando quede el mismo número de átomos, tanto en los reactivos como en los productos, entonces la ecuación ya quedó balanceada. 
 
+          p.mb-0  (Emmanuel Asesorías, 2017) 
       .row.justify-content-center.align-items-center(titulo="Desarrollo final de una ecuación") 
         .col-auto
           img.img-a.img-t(src='@/assets/curso/temas/103.svg', alt='')
         
         .col
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li 
               i.fas.fa-check.c1
               | Finalmente, la ecuación queda balanceada y se lee de la siguiente manera: un mol de ácido fosfórico reacciona con tres moles de hidróxido de potasio produciendo un mol de fosfato de potasio y tres moles de agua. (Emmanuel Asesorías, 2017)
@@ -104,7 +106,7 @@
             li 
               i.fas.fa-check.c1
               | Es muy importante tener claros estos conceptos, para ello se invita a consultar el siguiente material audiovisual para complementar los conceptos anteriormente vistos. 
-
+          p.mb-0  (Emmanuel Asesorías, 2017) 
 
 
 </template>

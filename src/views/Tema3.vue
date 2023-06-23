@@ -70,7 +70,7 @@
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/31.png', alt='')              
       .col-lg-8.my-3.p-3
         h5(data-aos="fade-down") Va a depender de:
-        ul.lista-ul(data-aos="fade-down")
+        ul.lista-ul.fa-ul(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
             | La matriz de la muestra.
@@ -96,9 +96,9 @@
             i.fas.fa-check.c2
             | En la mayoría de las ocasiones, suelen emplearse métodos estadísticos aproximados con base en la experiencia, así ocurre con el método del coeficiente de variación. 
 
-    .row.justify-content-center.align-items-start.mb-5           
+    .row.justify-content-center.align-items-start.mb-4           
       .col-lg-7.my-3
-        p(data-aos="fade-down") En esta misma línea, se requiere establecer el tamaño de la muestra en función del coeficiente de variación.
+        p(data-aos="fade-down") En esta misma línea, se requiere establecer el #[b tamaño de la muestra en función del coeficiente de variación].
 
         p(data-aos="fade-down") El valor del coeficiente de variación V para una serie de muestras viene dado por el cociente entre la desviación estándar (σ) y el valor medio de las muestras, multiplicado por 100.  
 
@@ -109,7 +109,7 @@
             i.fas.fa-quote-right                
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.svg', alt='')              
-
+    p(data-aos="fade-down").mb-5 Finalmente, y sin olvidar que una muestra de calidad representa un excelente análisis en campo y en el laboratorio, de esto depende el 60% del éxito en los análisis fisicoquímicos. Siendo así, es necesario tener en cuenta dos elementos más para un proceso exitoso:             
     TabsB.color-primario.mb-5
       .py-4.py-md-5.bg10(titulo="Espaciado entre muestras" :icono="require('@/assets/curso/temas/33.svg')")
         .px-5
@@ -130,9 +130,19 @@
             .col-lg-8.my-3
               p Para una distribución normal del analito, si conocemos σ, el número de muestras mínimo #[b N] para un intervalo de confianza dado y un error máximo E viene dado por la expresión:
               h5.mb-4 Dónde:
-              h5.mb-4 #[b.v.p-1.px-2 σ] - desviación estándar 
-              h5.mb-4 #[b.v.p-1.px-2 Z] - parámetro de población, que se obtiene de tablas para un nivel de probabilidad dado.
-              h5 #[b.v.p-1.px-2 E] - error máximo aceptado.
+              ol.lista-ol--cuadro.fa-ul.mb-0
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.tb σ
+                  h5.mb-0 - desviación estándar 
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.tb Z
+                  h5.mb-0 - parámetro de población, que se obtiene de tablas para un nivel de probabilidad dado.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.tb E
+                  h5.mb-0 - error máximo aceptado.
 
             .col-lg-4.my-3
               img.img-a.img-t(src='@/assets/curso/temas/35.svg', alt='')   
@@ -141,9 +151,20 @@
             .col-lg-8.my-3
               p Para una distribución irregular del analito y un bajo número de muestras previas (<20), la expresión del número de muestras mínimo N para un intervalo de confianza dado y un error máximo E se transforma en la expresión: 
               h5.mb-4 Dónde:
-              h5.mb-4 #[b.v.p-1.px-2 Sm#[sup 2]] - varianza de la muestra
-              h5.mb-4 #[b.v.p-1.px-2 t] - parámetro t de Student para (n -1) grados de libertad o muestras y un nivel de confianza dado. Se obtiene de tablas.
-              h5 #[b.v.p-1.px-2 E] - error máximo aceptado.                        
+              ol.lista-ol--cuadro.fa-ul.mb-0
+                li 
+                  .lista-ol--cuadro__vineta.facuston
+                    span Sm#[sup 2]
+                  h5.mb-0 - varianza de la muestra 
+                li 
+                  .lista-ol--cuadro__vineta.facuston
+                    span t
+                  h5.mb-0 - parámetro t de Student para (n -1) grados de libertad o muestras y un nivel de confianza dado. Se obtiene de tablas. 
+                li 
+                  .lista-ol--cuadro__vineta.facuston
+                    span E
+                  h5.mb-0 - error máximo aceptado.                                                     
+                    
             .col-lg-4.my-3
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/36.svg', alt='')
               p.text-center (Universidad Politécnica de Cartagena, 2017)  
@@ -160,7 +181,7 @@
                   h4.mb-1 Para poder completar y profundizar en el estudio de los factores que influyen en la representatividad, se invita a hacer lectura consciente y atenta.
                   p.mb-0 Anexo1 _OtrosFactoresInfluyenEnRepresentatividad 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_OtrosFactoresInfluyenRepresentatividad.pdf')" target="_blank")
                     span Descargar
                     i.c3.fas.fa-file-download                               
 </template>

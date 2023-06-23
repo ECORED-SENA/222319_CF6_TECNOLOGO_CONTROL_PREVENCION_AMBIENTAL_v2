@@ -53,17 +53,17 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 3
           span Etapas del proceso analítico total    
-      img.img-a.img-t.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/10.svg', alt='') 
+      img.img-a.img-t.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/125.svg', alt='') 
 
 
-      img.img-a.img-t.mb-4.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/10_1.svg', alt='')    
+      img.img-a.img-t.mb-4.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/125_1.svg', alt='')    
 
       figcaption Nota. Tomada de https://es.calameo.com/read/002446339add36a3f7d24
 
     Separador 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.1 Métodos clásicos       
-    p(data-aos="fade-down").mb-5 Los métodos clásicos se basan en las propiedades químicas de la sustancia que se analiza, es decir, del analito. Algunos de estos métodos son:
+    p(data-aos="fade-down").mb-5 #[b Los métodos clásicos] se basan en las propiedades químicas de la sustancia que se analiza, es decir, del analito. Algunos de estos métodos son:
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -97,22 +97,22 @@
         img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/45.png', alt='')              
       .col-lg-7.p-3
         p(data-aos="fade-down") También llamados métodos químicos, se basan en las propiedades químico-físicas de la materia y son:
-        ul.lista-ul.ps-5(data-aos="fade-down")
+        ul.lista-ul.fa-ul.ps-5(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            | Ópticos – espectroscópicos
+            h5.mb-0 Ópticos – espectroscópicos
           li 
             i.fas.fa-check.c2
-            | Separación 
+            h5.mb-0 Separación 
           li 
             i.fas.fa-check.c2
-            | Electroquímicos
+            h5.mb-0 Electroquímicos
           li 
             i.fas.fa-check.c2
-            | Radioquímicos
+            h5.mb-0 Radioquímicos
           li 
             i.fas.fa-check.c2
-            | Térmicos 
+            h5.mb-0 Térmicos 
 
     p(data-aos="fade-down").mb-5 A continuación, se pueden encontrar gráficas e imágenes que ilustran más y mejor sobre las técnicas espectroscópicas y no espectroscópicas, nuevos conceptos y nuevos elementos técnicos, referentes a los métodos instrumentales y clásicos en el análisis químico. 
 
@@ -128,7 +128,7 @@
               .bgw.brad.p-3.h-100
                 h4.mb-4.g Moleculares:
                 h5.mb-3 Absorción 
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | Espectrofotometría ultravioleta visible
@@ -140,7 +140,7 @@
                     | Espectrofotometría de microondas
 
                 h5.mb-3 Emisión
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | Espectrofotometría de fluorescencia
@@ -153,7 +153,7 @@
               .bgw.brad.p-3.h-100
                 h4.mb-4.g Atómicas:
                 h5.mb-3 Absorción   
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | Espectrofotometría de absorción atómica
@@ -162,7 +162,7 @@
                     | Espestroscopía de absorción de rayos X
 
                 h5.mb-3 Emisión
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | Espestroscopía de emisión atómica (llama, arco, chispa, plasma)
@@ -189,7 +189,7 @@
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la dispersión de la radiación: 
-                    ul.lista-ul
+                    ul.lista-ul.fa-ul
                       li 
                         i.lista-ul__vineta
                         | Turbidimetría
@@ -202,7 +202,7 @@
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la difracción:
-                    ul.lista-ul
+                    ul.lista-ul.fa-ul
                       li 
                         i.lista-ul__vineta
                         | Difracción de rayos X
@@ -216,7 +216,7 @@
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la medida del índice de refracción: 
-                    ul.lista-ul
+                    ul.lista-ul.fa-ul
                       li 
                         i.lista-ul__vineta
                         | Refractometría
@@ -226,7 +226,7 @@
                 .col-lg-6.my-3
                   .bgw.brad.p-3.h-100
                     h5.mb-3 Basadas en la medida de la actividad óptica: 
-                    ul.lista-ul
+                    ul.lista-ul.fa-ul
                       li 
                         i.lista-ul__vineta
                         | Polarimetría
@@ -235,7 +235,7 @@
                         | Espectropolarimetría
                       li 
                         i.lista-ul__vineta
-                        | Espectrometría de dicroísmo circular.
+                        | Espectrometría de dicroísmo circular
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/47.png', alt='')                    
 
@@ -249,13 +249,13 @@
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold a. 
-                        | #[b Potenciometría]
+                        p.mb-0 #[b Potenciometría]
                         
                   .bgw.brad.p-3
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold b. 
-                        | #[b Técnicas Voltamperométricas]
+                        p.mb-0 #[b Técnicas Voltamperométricas]
                     ol.lista-ol.mb-0.ps-4
                       li.mb-0 
                         span.text-bold i. 
@@ -265,23 +265,23 @@
                         | Voltamperometría de redisolución
                       li.mb-0 
                         span.text-bold iii. 
-                        | Voltamperometría ciclica
+                        | Voltamperometría cíclica
 
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4
                     ol.lista-ol.mb-0
                       li.mb-0 
                         span.text-bold c. 
-                        | #[b Culombiametría]
+                        p.mb-0 #[b Culombiametría]
                     ol.lista-ol.mb-0.ps-4
                       li.mb-0 
                         span.text-bold i. 
-                        | Culombimetria a potencial constante
+                        | Culombiametría a potencial constante
                       li.mb-0 
-                        span.text-bold i. 
-                        | Culombimetria a intensidad constante
+                        span.text-bold ii. 
+                        | Culombiametría a intensidad constante
                       li.mb-0 
-                        span.text-bold i. 
+                        span.text-bold iii. 
                         | Electrogravimetría              
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/48.png', alt='')             
@@ -294,26 +294,26 @@
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4.h-100
                     h5.mb-4 Sensibilidad: 
-                    p.mb-0 Cantidad o concentración mínima que se puede determinar. 
+                    p.mb-0 Cantidad o concentración mínima que se puede determinar 
                        
 
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4.h-100
                     h5.mb-4 Exactitud: 
-                    p.mb-0 Proximidad de una medida a su valor real. 
+                    p.mb-0 Proximidad de una medida a su valor real 
 
 
                 .row    
                   .col-lg-6.my-3
                     .bgw.brad.p-3.mb-4.h-100
                       h5.mb-4 Selectividad: 
-                      p.mb-0 Interferencia de unas especies químicas en la determinación de otras.
+                      p.mb-0 Interferencia de unas especies químicas en la determinación de otras
                         
 
                   .col-lg-6.my-3
                     .bgw.brad.p-3.mb-4.h-100
                       h5.mb-4 Precisión:
-                      p.mb-0 Concordancia entre dos o más valores numéricos de resultados obtenidos de forma idéntica.                  
+                      p.mb-0 Concordancia entre dos o más valores numéricos de resultados obtenidos de forma idéntica                  
          
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/49.png', alt='')               
@@ -325,7 +325,7 @@
               .bgg1.p-2 
                 h5.mb-0.ps-3 Errores Sistemáticos (Determinados)
               .bgw.bradb.p-3.he
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | Tienen calor definido
@@ -339,7 +339,7 @@
                     i.lista-ul__vineta
                     | Afectan a la #[b EXACTITUD]    
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='')               
-                ul.lista-ul.mb-0
+                ul.lista-ul.fa-ul.mb-0
                   li 
                     i.lista-ul__vineta
                     | Errores de instrumento
@@ -353,7 +353,7 @@
               .bgg1.p-2 
                 h5.mb-0.ps-3 Errores Aleatorios (Indeterminados)
               .bgw.bradb.p-3.he
-                ul.lista-ul
+                ul.lista-ul.fa-ul
                   li 
                     i.lista-ul__vineta
                     | No tienen signo concreto
@@ -365,7 +365,7 @@
                     | Afectan a la #[b PRECISIÓN]   
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='') 
                 h5.mb-4 Variables no controladas:
-                p.mb-0 Parte inevitable de toda medición física o química.
+                p.mb-0 Parte inevitable de toda medición física o química
 
             .col-lg-4.my-3.img-b
               img.img-mov(src='@/assets/curso/temas/50.png', alt='')

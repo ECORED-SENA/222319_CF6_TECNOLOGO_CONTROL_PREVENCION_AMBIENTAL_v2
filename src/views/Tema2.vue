@@ -32,7 +32,7 @@
         .bg6.p-4.h-100
           img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
           h5.mb-3 NTC-ISO 5667-2 Calidad del agua. Muestreo
-          p.mb-0 Técnicas generales de muestreo  
+          p.mb-0 Técnicas generales de muestreo.  
       .col-md-6.col-lg.mb-3.mb-lg-0
         .bg6.p-4.h-100
           img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
@@ -75,7 +75,7 @@
           .tarjeta.bg6.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
             h5.mb-3 NTC-ISO 4113-6- Calidad del suelo. Muestreo. 
-            p.mb-0 anejo y almacenamiento del suelo para evaluación de procesos microbianos aeróbicos en el laboratorio.  
+            p.mb-0 Manejo y almacenamiento del suelo para evaluación de procesos microbianos aeróbicos en el laboratorio.  
           .tarjeta.bg6.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
             h5.mb-3 NTC 3935-Gestión ambiental. Calidad de suelo. 
@@ -104,43 +104,43 @@
 
     .row.justify-content-center.align-items-end.bg8.mb-5           
       .col-lg-8.my-3.p-3 
-        ul.lista-ul(data-aos="fade-down")
+        ul.lista-ul.fa-ul(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores.
+            p.mb-0 #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores.
           li 
             i.fas.fa-check.c2
-            | #[b NTC 4503 ]Análisis sensorial metodología. Iniciación y entrenamiento de evaluadores en la detección y reconocimiento de olores. 
+            p.mb-0 #[b NTC 4503 ]Análisis sensorial metodología. Iniciación y entrenamiento de evaluadores en la detección y reconocimiento de olores. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 4770 ]Calidad del agua; determinación del olor; método de umbral de olor NTC 838 pinturas; disolventes y diluyentes; identificación y determinación del olor. 
+            p.mb-0 #[b NTC 4770 ]Calidad del agua; determinación del olor; método de umbral de olor NTC 838 pinturas; disolventes y diluyentes; identificación y determinación del olor. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 958 ]Agua potable; determinación del olor y del sabor. 
+            p.mb-0 #[b NTC 958 ]Agua potable; determinación del olor y del sabor. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 5602 ]Determinación del olor de los adhesivos.
+            p.mb-0 #[b NTC 5602 ]Determinación del olor de los adhesivos.
           li 
             i.fas.fa-check.c2
-            | #[b NTC 5880 ]Calidad del aire; determinación de la concentración de olor por olfatometría dinámica. 
+            p.mb-0 #[b NTC 5880 ]Calidad del aire; determinación de la concentración de olor por olfatometría dinámica. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores. Cuestionarios. 
+            p.mb-0 #[b NTC 6012-1 ]Efectos y evaluación de los olores. Evaluación psicométrica de las molestias por olores. Cuestionarios. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6012-2 ]Efectos y evaluación de olores; determinación de parámetros de molestia mediante preguntas breves repetidas, a panelistas de un vecindario. 
+            p.mb-0 #[b NTC 6012-2 ]Efectos y evaluación de olores; determinación de parámetros de molestia mediante preguntas breves repetidas, a panelistas de un vecindario. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6049-1 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles; medición de malla.
+            p.mb-0 #[b NTC 6049-1 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles; medición de malla.
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6049-2 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles. Medición de pluma. 
+            p.mb-0 #[b NTC 6049-2 ]Medición de impacto de olor mediante inspección en campo; medición de la frecuencia del impacto de olores reconocibles. Medición de pluma. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6049-3 ]Medición de impacto de olor mediante inspección en campo; determinación de intensidad de olor y tono hedónico de olor. 
+            p.mb-0 #[b NTC 6049-3 ]Medición de impacto de olor mediante inspección en campo; determinación de intensidad de olor y tono hedónico de olor. 
           li 
             i.fas.fa-check.c2
-            | #[b NTC 6049-4 ]Determinación del tono hedónico del olor; perfiles de polaridad.                  
+            p.mb-0 #[b NTC 6049-4 ]Determinación del tono hedónico del olor; perfiles de polaridad.                  
       .col-lg-4.my-3          
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.png', alt='')
 
@@ -241,16 +241,16 @@
               .row.justify-content-start.align-items-center.mb-4           
                 .col-auto
                   .bgw.brad.p-4
-                    ul.lista-ul.mb-0(data-aos="fade-down")
+                    ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                       li 
                         i.fas.fa-check.c1
-                        | #[b Tan similar como sea posible a la población global a analizar]
+                        p.mb-0 #[b Tan similar como sea posible a la población global a analizar]
                       li 
                         i.fas.fa-check.c1
-                        | #[b Poseer sus características esenciales]
+                        p.mb-0 #[b Poseer sus características esenciales]
                       li.mb-0 
                         i.fas.fa-check.c1
-                        | #[b Ser reproducible] 
+                        p.mb-0 #[b Ser reproducible] 
               p(data-aos="fade-down") Para conseguir este resultado es necesario seleccionar subáreas y métodos de toma de muestra con base en criterios estadísticos y/o la experiencia previa.
 
               p(data-aos="fade-down") Al aumentar el número y volumen de las muestras, aumenta la representatividad, pero las consideraciones económicas y de conveniencia introducirán límites en ambos, ya que no se pueden manejar y transportar toneladas de muestra, y que al final, la técnica analítica a emplear limitará aún más la cantidad de la muestra para análisis.

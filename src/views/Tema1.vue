@@ -14,7 +14,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
-          span Tipos de herramientas para la comunicación interpretativa
+          span Proceso analítico de una muestra
     .row.justify-content-center.mb-4
       .col-lg-10
         img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/3.svg', alt='')
@@ -27,9 +27,9 @@
             p(data-aos="fade-down").mb-0 <b>Alistar la muestra es la etapa que más variabilidad introduce en el proceso analítico,</b> es la preparación de la muestra, que puede estar formada por un número variable de operaciones de muy diversa complejidad, por lo que incide en la calidad de los resultados obtenidos.       
         .tarjeta.colordoble
           .row.align-items-center
-            .col-lg-4.my-md-4
+            .col-lg-4.my-3
               img.img-a.img-t(data-aos="fade-down")(src='@/assets/curso/temas/4.png', alt='')
-            .col-lg-8             
+            .col-lg-8.my-3             
               p(data-aos="fade-down").mb-4 Esta unidad temática se centra en la <b>etapa de preparación de la muestra, cuyo objetivo es hacer que el analito (muestra para analizar) sea óptimo para el análisis, a una concentración adecuada y eliminando las posibles interferencias. </b>
               p(data-aos="fade-down").mb-0 Por ende, se debe tener mucho cuidado en la preparación de la muestra dentro del proceso analítico general y revisar muy bien las operaciones que forman parte de ella.
 
@@ -151,34 +151,34 @@
           .col-lg-7.my-3
             img.img-a.img-t(src='@/assets/curso/temas/16.png', alt='')  
 
-    p(data-aos="fade-down").mb-5 Continuando con las bases conceptuales sobre el muestreo y el alistamiento de la muestra, es momento de conocer la influencia de las diferentes etapas sobre los resultados. ¡Adelante! 
+    p(data-aos="fade-down").mb-5 Continuando con las bases conceptuales sobre el muestreo y el alistamiento de la muestra, es momento de conocer la #[b influencia de las diferentes etapas sobre los resultados]. ¡Adelante! 
 
     .row.justify-content-center.align-items-center   
       .col-lg-10.bg4.p-0(data-aos="zoom-in")
         .row.justify-content-center.align-items-start.px-5.pt-5     
           .col-lg-5.bg5.p-4.my-3
             p(data-aos="fade-down") Se consideran cinco etapas del protocolo completo: 
-            ul.lista-ul(data-aos="fade-down")
+            ul.lista-ul.fa-ul(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
-                | #[b Los elementos de protección personal]
+                p.mb-0 #[b Los elementos de protección personal]
               li 
                 i.fas.fa-check.c1
-                | #[b Desmuestre o recolección de la muestra]
+                p.mb-0 #[b Desmuestre o recolección de la muestra]
               li 
                 i.fas.fa-check.c1
-                | #[b Envasado, conservación y transporte]
+                p.mb-0 #[b Envasado, conservación y transporte]
               li 
                 i.fas.fa-check.c1
-                | #[b Preparación]
+                p.mb-0 #[b Preparación]
               li 
                 i.fas.fa-check.c1
-                | #[b Aplicación de la técnica analítica]
+                p.mb-0 #[b Aplicación de la técnica analítica]
 
           .col-lg-7.my-3
             p(data-aos="fade-down") En lo que se refiere al aseguramiento de la calidad y la reproducibilidad de todo el proceso, las cinco etapas acabadas de mencionar influyen de forma diferente.
 
-            p(data-aos="fade-down") También, a veces resulta un reto la conservación y transporte de la muestra en condiciones, ya que debe impedirse que se produzcan alteraciones físicas o químicas, debiendo en algunos casos muy específicos realizarse las medidas in situ.
+            p(data-aos="fade-down") También, a veces resulta un reto la conservación y transporte de la muestra en condiciones, ya que debe impedirse que se produzcan alteraciones físicas o químicas, debiendo en algunos casos muy específicos realizarse las medidas #[i in situ].
 
             p(data-aos="fade-down") Por todo esto la gran importancia de prestar una especial atención a las técnicas de recolección y preservación de las muestras, por la repercusión que tienen sobre la precisión, exactitud y representatividad de los datos que resulten de los análisis y, sobre todo, en la reproducibilidad del proceso completo. 
 

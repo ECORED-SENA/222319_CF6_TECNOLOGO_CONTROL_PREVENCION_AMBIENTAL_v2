@@ -17,14 +17,14 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/104.svg', alt='') 
 
             .col-11
-              p(data-aos="fade-down").mb-0 Los microorganismos son aquellos organismos que, por su tamaño reducido, son imperceptibles a la vista. También denominados “microbios”, estos organismos cuentan con una organización biológica muy básica: una proporción importante de ellos cuenta con apenas una única célula. Además, se caracterizan por existir numerosas variedades, de diferentes formas y tamaños. Los organismos unicelulares procariotas y eucariotas, junto con ciertos hongos y algas, componen el universo de los microbios. 
+              p(data-aos="fade-down").mb-0 Los microorganismos son aquellos organismos que, #[b por su tamaño reducido, son imperceptibles a la vista]. También denominados “microbios”, estos organismos #[b cuentan con una organización biológica muy básica]: una proporción importante de ellos cuenta con apenas una única célula. Además, se caracterizan por existir numerosas variedades, de diferentes formas y tamaños. Los organismos unicelulares procariotas y eucariotas, junto con ciertos hongos y algas, componen el universo de los microbios. 
     
     p(data-aos="fade-down") Los microorganismos tienen la capacidad de alterar el medio en el cual se encuentran. Los microorganismos tienen una serie de características en común:
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7.my-3
         .bg16.px-5.py-4.md-p-4
-          ul.lista-ul.mb-0
+          ul.lista-ul.fa-ul.mb-0
             li 
               i.fas.fa-check.c1
               | Su tamaño es tan reducido que son imperceptibles a simple vista.
@@ -102,7 +102,7 @@
         .tarjeta.color-primario.bg5.ts.h-100
           .p-4.pt-5
             h4.text-center Arqueas y bacterias
-            p.mb-0 Se trata de dos tipos de organismos procariotas y unicelulares, y son los microbios más simples. Conforman el grupo de microbios con mayor presencia en la tierra, se alimentan del hábita en el que se encuentran y su reproducció es a partir de la división de su material genético.
+            p.mb-0 Se trata de dos tipos de organismos procariotas y unicelulares, y son los microbios más simples. Conforman el grupo de microbios con mayor presencia en la tierra, se alimentan del hábitat en el que se encuentran y su reproducción es a partir de la división de su material genético.
 
     Separador 
     #t_10_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -140,7 +140,7 @@
         p #[b.g Basura.] Por medio de ciertos procesos biológicos, como la estabilización o descomposición, los microbios limpian los residuos. Terminan por convertir los residuos en humus o compost.
 
         p #[b.g Agricultura.] Muchos de los microorganismos que habitan el suelo facilitan la producción agrícola. Ya sea porque actúan como plaguicidas, o bien porque ayudan al crecimiento de las plantas.        
-
+        p (Raffino, 2020) 
     Separador 
     #t_10_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 10.3 Ejemplos de microorganismos

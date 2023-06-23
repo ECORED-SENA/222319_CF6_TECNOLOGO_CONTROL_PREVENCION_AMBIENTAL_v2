@@ -20,7 +20,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/58.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los componentes que forman las disoluciones son nombrados dependiendo de la cantidad en que se encuentren en la mezcla. El componente que se encuentre en mayor cantidad es conocido como solvente, mientras que aquel componente que se encuentre en menor cantidad será el soluto. En las soluciones acuosas o aquellas soluciones donde se encuentra agua como uno de los componentes, el agua será el solvente, aunque se encuentre en menor cantidad que el soluto.   
+        p.mb-0 Los componentes que forman las disoluciones son nombrados dependiendo de la cantidad en que se encuentren en la mezcla. El componente que se encuentre en mayor cantidad es conocido como #[b solvente], mientras que aquel componente que se encuentre en menor cantidad será el #[b soluto]. En las soluciones acuosas o aquellas soluciones donde se encuentra agua como uno de los componentes, el agua será el solvente, aunque se encuentre en menor cantidad que el soluto.   
 
     Separador 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -109,7 +109,7 @@
     #t_6_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.5 Factores que afectan la solubilidad 
 
-    p(data-aos="fade-down").mb-5 La solubilidad de un soluto en un solvente se puede ver afectada por diferentes condiciones a las que se someta la disolución. Estas condiciones pueden ser: la temperatura, la agitación, la naturaleza de los componentes de la disolución, la presión y la superficie de contacto del soluto con el solvente. 
+    p(data-aos="fade-down").mb-5 #[b La solubilidad de un soluto] en un solvente se puede ver afectada por diferentes condiciones a las que se someta la disolución. Estas condiciones pueden ser: la temperatura, la agitación, la naturaleza de los componentes de la disolución, la presión y la superficie de contacto del soluto con el solvente. 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-6
@@ -119,7 +119,7 @@
 
         p(data-aos="fade-down") Al aumentar la temperatura y el grado de agitación en una disolución, aumenta la energía cinética de sus partículas, por lo que se favorece el movimiento de estas y se permite que se difuminen más rápido por todo el solvente.
         .bg1.p-3
-          ul.lista-ul.mb-0 
+          ul.lista-ul.fa-ul.mb-0 
             li 
               i.lista-ul__vineta
               p.mb-0 #[b Presión:] esta afecta en gran medida la solubilidad de los gases, ya que al aumentar la presión que se ejerce sobre un gas en una disolución, este se solubiliza más en un solvente.
@@ -146,6 +146,9 @@
 
     .row.justify-content-center.align-items-center          
       .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 4
+          span Unidades físicas y químicas de concentración       
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/69.svg', alt='') 
         figcaption Nota. Tomada de M. J. (2019). 
 
