@@ -16,15 +16,17 @@
           h5 Figura 1
           span Proceso analítico de una muestra
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10.d-none.d-lg-block
         img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/3.svg', alt='')
         figcaption Nota. Tomada de Pineda (2020). Proceso analítico de una muestra.
-
+      .col-lg-10.d-block.d-lg-none
+        img.img-a.img-t.mb-3(data-aos="fade-down")(src='@/assets/curso/temas/3_1.svg', alt='')
+        figcaption Nota. Tomada de Pineda (2020). Proceso analítico de una muestra.
     .row.justify-content-center.my-4
       .col-lg-12
         .row.justify-content-end.align-items-center.mt-5        
           .col-lg-8      
-            p(data-aos="fade-down").mb-0 <b>Alistar la muestra es la etapa que más variabilidad introduce en el proceso analítico,</b> es la preparación de la muestra, que puede estar formada por un número variable de operaciones de muy diversa complejidad, por lo que incide en la calidad de los resultados obtenidos.       
+            p(data-aos="fade-down").mb-4 <b>Alistar la muestra es la etapa que más variabilidad introduce en el proceso analítico,</b> es la preparación de la muestra, que puede estar formada por un número variable de operaciones de muy diversa complejidad, por lo que incide en la calidad de los resultados obtenidos.       
         .tarjeta.colordoble
           .row.align-items-center
             .col-lg-4.my-3

@@ -58,7 +58,8 @@
 
       img.img-a.img-t.mb-4.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/125_1.svg', alt='')    
 
-      figcaption Nota. Tomada de https://es.calameo.com/read/002446339add36a3f7d24
+      figcaption Nota. Tomada de 
+        a(href="https://es.calameo.com/read/002446339add36a3f7d24" target="_blank")  https://es.calameo.com/read/002446339add36a3f7d24
 
     Separador 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -246,13 +247,13 @@
               .row    
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4
-                    ol.lista-ol.mb-0
+                    ol.lista-ol.fa-ul.mb-0
                       li.mb-0 
                         span.text-bold a. 
                         p.mb-0 #[b Potenciometría]
                         
                   .bgw.brad.p-3
-                    ol.lista-ol.mb-0
+                    ol.lista-ol.fa-ul.mb-0
                       li.mb-0 
                         span.text-bold b. 
                         p.mb-0 #[b Técnicas Voltamperométricas]
@@ -269,7 +270,7 @@
 
                 .col-lg-6.my-3
                   .bgw.brad.p-3.mb-4
-                    ol.lista-ol.mb-0
+                    ol.lista-ol.fa-ul.mb-0
                       li.mb-0 
                         span.text-bold c. 
                         p.mb-0 #[b Culombiametría]
@@ -337,7 +338,7 @@
                     | Tiene igual signo y magnitud
                   li 
                     i.lista-ul__vineta
-                    | Afectan a la #[b EXACTITUD]    
+                    p.mb-0 Afectan a la #[b EXACTITUD]    
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='')               
                 ul.lista-ul.fa-ul.mb-0
                   li 
@@ -362,7 +363,7 @@
                     | No pueden corregirse
                   li 
                     i.lista-ul__vineta
-                    | Afectan a la #[b PRECISIÓN]   
+                    p.mb-0 Afectan a la #[b PRECISIÓN]   
                 img.mb-4(src='@/assets/curso/temas/hr.svg', alt='') 
                 h5.mb-4 Variables no controladas:
                 p.mb-0 Parte inevitable de toda medición física o química
