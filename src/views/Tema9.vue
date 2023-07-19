@@ -103,9 +103,6 @@
               i.fas.fa-check.c1
               | Finalmente, la ecuación queda balanceada y se lee de la siguiente manera: un mol de ácido fosfórico reacciona con tres moles de hidróxido de potasio produciendo un mol de fosfato de potasio y tres moles de agua. (Emmanuel Asesorías, 2017)
 
-            li 
-              i.fas.fa-check.c1
-              | Es muy importante tener claros estos conceptos, para ello se invita a consultar el siguiente material audiovisual para complementar los conceptos anteriormente vistos. 
           p.mb-0  (Emmanuel Asesorías, 2017) 
 
 

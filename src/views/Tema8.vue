@@ -53,25 +53,25 @@
         ul.lista-ul.fa-ul.mb-0.mt-3.ps-4(data-aos="fade-down")
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Longitud]
+            p.mb-0 #[b Longitud.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Tiempo]
+            p.mb-0 #[b Tiempo.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Masa]
+            p.mb-0 #[b Masa.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Intensidad de corriente eléctrica]
+            p.mb-0 #[b Intensidad de corriente eléctrica.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Temperatura]
+            p.mb-0 #[b Temperatura.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Cantidad de sustancia]
+            p.mb-0 #[b Cantidad de sustancia.]
           li 
             i.fas.fa-check.c2
-            p.mb-0 #[b Intensidad luminosa ]
+            p.mb-0 #[b Intensidad luminosa.]
 
     p(data-aos="fade-down").mb-5 Y por otro lado existen las derivadas, que son las restantes y que pueden ser expresadas con una combinación matemática de las anteriores. Las más frecuentes son: superficie, volumen, velocidad, aceleración, densidad, frecuencia, periodo, fuerza, presión, trabajo, calor, energía, potencia, carga eléctrica, diferencia de potencial, potencial eléctrico, resistencia eléctrica, etcétera.  
 
@@ -85,7 +85,7 @@
       .col-lg-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/92.png', alt='')
 
-      .col-lg-9
+      .col-lg-9.d-none.d-lg-block
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.bg6.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
@@ -112,6 +112,32 @@
             h5.mb-3 Sistema Inglés:  
             p.mb-0 Aún utilizado en los países anglosajones, principalmente en Estados Unidos. Muchos de ellos lo están intentando reemplazar por el Sistema Internacional de Unidades.     
 
+      .col-md-9.d-block.d-lg-none
+        .bg6.p-4.my-2.text-center
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
+          h5.mb-3 Sistema Internacional de Unidades o SI: 
+          p.mb-0  Es el sistema más usado. Sus unidades básicas son: el metro, el kilogramo, el segundo, el ampere, el kelvin, la candela y el mol.      
+
+        .bg6.p-4.my-2.text-center
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
+          h5.mb-3 Sistema Métrico Decimal: 
+          p.mb-0 Primer sistema unificado de medidas.   
+
+        .bg6.p-4.my-2.text-center
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
+          h5.mb-3 Sistema Cegesimal o CGS:  
+          p.mb-0 Denominado así porque sus unidades básicas son el centímetro, el gramo y el segundo.   
+
+        .bg6.p-4.my-2.text-center
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
+          h5.mb-3 Sistema Técnico de Unidades: 
+          p.mb-0 Derivado del sistema métrico con unidades del anterior, actualmente este sistema está en desuso.    
+
+        .bg6.p-4.my-2.text-center
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
+          h5.mb-3 Sistema Inglés:  
+          p.mb-0 Aún utilizado en los países anglosajones, principalmente en Estados Unidos. Muchos de ellos lo están intentando reemplazar por el Sistema Internacional de Unidades.                
+
     p(data-aos="fade-down").mb-5 Es así como en Colombia el Instituto Nacional de Metrología ha establecido que en el país se debe utilizar el #[b Sistema Internacional de Unidades] (abreviado SI del francés: #[i Le Système International d’Unités]), también denominado Sistema Internacional de Medidas; es el nombre que recibe el sistema de unidades que se usa en la mayoría de los países y es la forma actual del sistema métrico decimal.  
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -130,7 +156,7 @@
           li.mb-0 
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 #[b Las unidades del SI son la referencia internacional de las indicaciones de los instrumentos de medida] y a las que están referidas a través de una cadena ininterrumpida de calibraciones o comparaciones. Esto permite alcanzar la equivalencia de las medidas realizadas por instrumentos similares, utilizados y calibrados en lugares apartados, y por ende asegurar, sin la necesidad de ensayos y mediciones duplicadas, el cumplimiento de las características de los objetos que circulan en el comercio internacional y su intercambiabilidad 
+            p.mb-0 #[b Las unidades del SI son la referencia internacional de las indicaciones de los instrumentos de medida] y a las que están referidas a través de una cadena ininterrumpida de calibraciones o comparaciones. Esto permite alcanzar la equivalencia de las medidas realizadas por instrumentos similares, utilizados y calibrados en lugares apartados, y por ende asegurar, sin la necesidad de ensayos y mediciones duplicadas, el cumplimiento de las características de los objetos que circulan en el comercio internacional y su intercambiabilidad. 
 
     Separador 
     #t_8_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

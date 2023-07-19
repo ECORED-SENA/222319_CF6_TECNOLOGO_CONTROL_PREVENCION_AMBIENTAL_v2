@@ -63,47 +63,88 @@
       h2 10.1 Tipos de microorganismos
     p(data-aos="fade-down").mb-5 Dentro de la naturaleza se pueden identificar diferentes tipos de microorganismos. Algunos de ellos son los siguientes:
     
-    SlyderF.text-center(columnas="col-lg-6 col-xl-4")
-      .tarjeta.tarjeta-avatar.h-100
-        img.img-a.img-t(src='@/assets/curso/temas/106.svg' alt='AvatarTop')
+    .row.justify-content-center.align-items-center       
+      .col-lg-12.d-none.d-lg-block    
+        SlyderF.text-center(columnas="col-lg-6 col-xl-4")
+          .tarjeta.tarjeta-avatar.h-100
+            img.img-a.img-t(src='@/assets/curso/temas/106.svg' alt='AvatarTop')
 
-        .tarjeta.color-primario.bg5.ts.h-100
-          .p-4.pt-5
-            h4.text-center Virus
-            p.mb-0 Son los microbios más básicos y solamente se los puede percibir con microscopios electrónicos. Para reproducirse, deben infectar a otros organismos unicelulares, a los que les inoculan su contenido genético (solo pueden reproducirse en una célula huésped).     
+            .tarjeta.color-primario.bg5.ts.h-100
+              .p-4.pt-5
+                h4.text-center Virus
+                p.mb-0 Son los microbios más básicos y solamente se los puede percibir con microscopios electrónicos. Para reproducirse, deben infectar a otros organismos unicelulares, a los que les inoculan su contenido genético (solo pueden reproducirse en una célula huésped).     
 
-      .tarjeta.tarjeta-avatar.h-100
-        img.img-a.img-t(src='@/assets/curso/temas/107.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-avatar.h-100
+            img.img-a.img-t(src='@/assets/curso/temas/107.svg' alt='AvatarTop')
 
-        .tarjeta.color-primario.bg5.ts.h-100
-          .p-4.pt-5
-            h4.text-center Algas cianofíceas
-            p.mb-0  Se trata de bacterias de gran tamaño y se caracterizan por hacer fotosíntesis de manera muy similar a las plantas, es decir, oxigénica (desprenden oxígeno).    
+            .tarjeta.color-primario.bg5.ts.h-100
+              .p-4.pt-5
+                h4.text-center Algas cianofíceas
+                p.mb-0  Se trata de bacterias de gran tamaño y se caracterizan por hacer fotosíntesis de manera muy similar a las plantas, es decir, oxigénica (desprenden oxígeno).    
 
-      .tarjeta.tarjeta-avatar.h-100
-        img.img-a.img-t(src='@/assets/curso/temas/108.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-avatar.h-100
+            img.img-a.img-t(src='@/assets/curso/temas/108.svg' alt='AvatarTop')
 
-        .tarjeta.color-primario.bg5.ts.h-100
-          .p-4.pt-5
-            h4.text-center Hongos
-            p.mb-0  Así como la levadura, muchos de los organismos que integran el reino fungi son microscópicos.    
+            .tarjeta.color-primario.bg5.ts.h-100
+              .p-4.pt-5
+                h4.text-center Hongos
+                p.mb-0  Así como la levadura, muchos de los organismos que integran el reino fungi son microscópicos.    
 
-      .tarjeta.tarjeta-avatar.h-100
-        img.img-a.img-t(src='@/assets/curso/temas/109.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-avatar.h-100
+            img.img-a.img-t(src='@/assets/curso/temas/109.svg' alt='AvatarTop')
 
-        .tarjeta.color-primario.bg5.ts.h-100
-          .p-4.pt-5
-            h4.text-center Protistas
-            p.mb-0 Se trata de microbios unicelulares eucariotas de gran volumen. Por lo general, se desarrollan en ambientes acuáticos, que pueden ser de agua dulce o salada, o en lugares muy húmedos. Aunque algunas variedades desarrollan vidas parasitarias, por lo general, estos organismos depredan a otros microorganismos a la hora de alimentarse.    
+            .tarjeta.color-primario.bg5.ts.h-100
+              .p-4.pt-5
+                h4.text-center Protistas
+                p.mb-0 Se trata de microbios unicelulares eucariotas de gran volumen. Por lo general, se desarrollan en ambientes acuáticos, que pueden ser de agua dulce o salada, o en lugares muy húmedos. Aunque algunas variedades desarrollan vidas parasitarias, por lo general, estos organismos depredan a otros microorganismos a la hora de alimentarse.    
 
-      .tarjeta.tarjeta-avatar.h-100
-        img.img-a.img-t(src='@/assets/curso/temas/110.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-avatar.h-100
+            img.img-a.img-t(src='@/assets/curso/temas/110.svg' alt='AvatarTop')
 
-        .tarjeta.color-primario.bg5.ts.h-100
-          .p-4.pt-5
-            h4.text-center Arqueas y bacterias
-            p.mb-0 Se trata de dos tipos de organismos procariotas y unicelulares, y son los microbios más simples. Conforman el grupo de microbios con mayor presencia en la tierra, se alimentan del hábitat en el que se encuentran y su reproducción es a partir de la división de su material genético.
+            .tarjeta.color-primario.bg5.ts.h-100
+              .p-4.pt-5
+                h4.text-center Arqueas y bacterias
+                p.mb-0 Se trata de dos tipos de organismos procariotas y unicelulares, y son los microbios más simples. Conforman el grupo de microbios con mayor presencia en la tierra, se alimentan del hábitat en el que se encuentran y su reproducción es a partir de la división de su material genético.
+      .col-md-10.d-block.d-lg-none   
+        .tarjeta.tarjeta-avatar.h-100.my-3
+          img.img-a.img-t(src='@/assets/curso/temas/106.svg' alt='AvatarTop')
 
+          .tarjeta.color-primario.bg5.ts.h-100
+            .p-4.pt-5
+              h4.text-center Virus
+              p.mb-0 Son los microbios más básicos y solamente se los puede percibir con microscopios electrónicos. Para reproducirse, deben infectar a otros organismos unicelulares, a los que les inoculan su contenido genético (solo pueden reproducirse en una célula huésped).     
+
+        .tarjeta.tarjeta-avatar.h-100.my-3
+          img.img-a.img-t(src='@/assets/curso/temas/107.svg' alt='AvatarTop')
+
+          .tarjeta.color-primario.bg5.ts.h-100
+            .p-4.pt-5
+              h4.text-center Algas cianofíceas
+              p.mb-0  Se trata de bacterias de gran tamaño y se caracterizan por hacer fotosíntesis de manera muy similar a las plantas, es decir, oxigénica (desprenden oxígeno).    
+
+        .tarjeta.tarjeta-avatar.h-100.my-3
+          img.img-a.img-t(src='@/assets/curso/temas/108.svg' alt='AvatarTop')
+
+          .tarjeta.color-primario.bg5.ts.h-100
+            .p-4.pt-5
+              h4.text-center Hongos
+              p.mb-0  Así como la levadura, muchos de los organismos que integran el reino fungi son microscópicos.    
+
+        .tarjeta.tarjeta-avatar.h-100.my-3
+          img.img-a.img-t(src='@/assets/curso/temas/109.svg' alt='AvatarTop')
+
+          .tarjeta.color-primario.bg5.ts.h-100
+            .p-4.pt-5
+              h4.text-center Protistas
+              p.mb-0 Se trata de microbios unicelulares eucariotas de gran volumen. Por lo general, se desarrollan en ambientes acuáticos, que pueden ser de agua dulce o salada, o en lugares muy húmedos. Aunque algunas variedades desarrollan vidas parasitarias, por lo general, estos organismos depredan a otros microorganismos a la hora de alimentarse.    
+
+        .tarjeta.tarjeta-avatar.h-100.my-3
+          img.img-a.img-t(src='@/assets/curso/temas/110.svg' alt='AvatarTop')
+
+          .tarjeta.color-primario.bg5.ts.h-100
+            .p-4.pt-5
+              h4.text-center Arqueas y bacterias
+              p.mb-0 Se trata de dos tipos de organismos procariotas y unicelulares, y son los microbios más simples. Conforman el grupo de microbios con mayor presencia en la tierra, se alimentan del hábitat en el que se encuentran y su reproducción es a partir de la división de su material genético.
     Separador 
     #t_10_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 10.2 Microorganismos perjudiciales y beneficiosos                               

@@ -54,7 +54,7 @@
       .col-lg-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/20.png', alt='')
 
-      .col-lg-9
+      .col-lg-9.d-none.d-lg-block
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.bg6.p-4.h-100.text-center
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
@@ -84,6 +84,36 @@
             img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
             h5.mb-3 NTC-ISO 11464 Gestión ambiental. Calidad del suelo. 
             p.mb-0 Pretratamiento de las muestras de suelo para análisis fisicoquímicos.
+
+      .col-md-8.d-block.d-lg-none        
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 4113-1- Calidad del suelo. Muestreo. 
+          p.mb-0 Directrices para el diseño de planes de muestreo.  
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 4113-2- Calidad del suelo. Muestreo. 
+          p.mb-0 Técnicas generales de muestreo.  
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 4113-3- Calidad del suelo. Muestreo. 
+          p.mb-0 Guía sobre seguridad.  
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 4113-4- Calidad del suelo. Muestreo. 
+          p.mb-0 Sitios cultivados.   
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 4113-6- Calidad del suelo. Muestreo. 
+          p.mb-0 Manejo y almacenamiento del suelo para evaluación de procesos microbianos aeróbicos en el laboratorio.  
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC 3935-Gestión ambiental. Calidad de suelo. 
+          p.mb-0 Pretratamiento de muestras para la determinación de contaminantes orgánicos.   
+        .bg6.p-4.text-center.my-2
+          img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')
+          h5.mb-3 NTC-ISO 11464 Gestión ambiental. Calidad del suelo. 
+          p.mb-0 Pretratamiento de las muestras de suelo para análisis fisicoquímicos.
 
     Separador 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -188,9 +218,6 @@
                   tr                    
                     td.brg.ctab NTC 4173. 97-06-25
                     td.brg Fertilizantes sólidos y acondicionadores del suelo. Ensayo de tamizado. Especifica un método para la determinación, mediante ensayos de tamizado, la distribución del tamaño de partículas de los fertilizantes sólidos y los acondicionadores de suelos.
-                  tr                    
-                    td.brg.ctab NTC 4175. 97-06-25
-                    td.brg Fertilizantes sólidos. Preparación de muestras para análisis químicos y físicos. Especifica los métodos para la preparación de las muestras o porciones de muestras requeridas para los ensayos químicos o físicos de fertilizantes sólidos. Contiene definiciones, aparatos, rotulado y reporte de preparación de muestra. 
                   tr
                     td.brg.ctab NTC 4175. 97-06-25
                     td.brg Fertilizantes sólidos. Preparación de muestras para análisis químicos y físicos. Especifica los métodos para la preparación de las muestras o porciones de muestras requeridas para los ensayos químicos o físicos de fertilizantes sólidos. Contiene definiciones, aparatos, rotulado y reporte de preparación de muestra. 

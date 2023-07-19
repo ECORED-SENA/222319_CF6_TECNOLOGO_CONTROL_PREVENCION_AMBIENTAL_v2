@@ -133,7 +133,7 @@
         .row.justify-content-center.mt-3
           .col-lg-4.mb-4.mb-md-0.my-3
             h4 Recolección de muestras en agua:
-            p La imagen muestra distintas personas recolectando una muestra para análisis. De otra parte, la muestra que se quiere analizar puede estar contenida en un pequeño recipiente o en un gran depósito, ser de una corriente subterránea o un agua superficial. También hay que tener en cuenta la distribución del analito, como lo menciona Harris (2010), que puede ser homogénea o depender de la profundidad.
+            p La imagen muestra una persona recolectando una muestra para análisis. De otra parte, la muestra que se quiere analizar puede estar contenida en un pequeño recipiente o en un gran depósito, ser de una corriente subterránea o un agua superficial. También hay que tener en cuenta la distribución del analito, como lo menciona Harris (2010), que puede ser homogénea o depender de la profundidad.
 
           .col-lg-7.my-3
             img.img-a.img-t(src='@/assets/curso/temas/14.png', alt='')

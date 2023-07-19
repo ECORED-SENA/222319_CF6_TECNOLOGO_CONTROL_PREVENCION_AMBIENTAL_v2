@@ -105,7 +105,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Como lo mencionan García-García et al. (2013), #[b una vez obtenido dicho valor, el tamaño de muestra mínimo se obtiene de la tabla 1, en la que, como se puede observar, al aumentar la irregularidad en la distribución del analito, aumenta el valor de V y también la masa de muestra necesaria.]
+            p.mb-0 Como lo mencionan García-García et al. (2013), una vez obtenido dicho valor, se observa que, al aumentar la irregularidad en la distribución del analito, aumenta el valor de V y también la masa de muestra necesaria.
             i.fas.fa-quote-right                
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.svg', alt='')              
@@ -117,12 +117,12 @@
           p Empleando los variogramas, se puede establecer una correlación espacial de la variación de la concentración del analito que interesa y, en función de esa correlación, establecer una representación gráfica (semivariograma experimental), como lo menciona Canchaya-Moya (2005). Con base en ella, se puede determinar la distancia a partir de la que empieza la dispersión de los valores de la concentración, desapareciendo la relación espacial que existía y de esta forma establecer la distancia mínima y máxima entre puntos de muestra en cada dirección, con un ahorro en número de puntos de muestreo considerable respecto de otros métodos; pero, a su vez, el método es muy complejo y requiere un gran número de muestras previas para aplicarlo, por lo que sólo se justifica en caso de evaluaciones de grandes explotaciones. En la mayoría de los casos suele bastar con aplicar el método del coeficiente de variación.
           .row.justify-content-center
             .col-lg-8.my-3
-              p #[b Según la Universidad Politécnica de Cartagena (2017)], en función de la anisotropía de la distribución del analito, aumenta el coeficiente de variación y, por consiguiente, se hace necesario disminuir la distancia entre puntos de toma de muestras. Si el espaciado aumenta sobre los valores de la tabla 1, se encuentran muestras no correlacionadas, y, por el contrario, si se emplean unas distancias menores, se ocasiona una sobredensidad de muestreo que conllevará un gasto innecesario en sondeos.
+              p #[b Según la Universidad Politécnica de Cartagena (2017)], en función de la anisotropía de la distribución del analito, aumenta el coeficiente de variación y, por consiguiente, se hace necesario disminuir la distancia entre puntos de toma de muestras. Si el espaciado aumenta sobre los valores, se encuentran muestras no correlacionadas, y, por el contrario, si se emplean unas distancias menores, se ocasiona una sobredensidad de muestreo que conllevará un gasto innecesario en sondeos.
 
               p En algunas ocasiones, el método, dada su sencillez, puede llevar a unos espacios excesivamente estrechos, aquí es donde la experiencia puede corregir ligeramente el problema en algunas zonas cuando se advierta el sobredimensionado.            
             .col-lg-4.my-3
               img.img-a.img-t(src='@/assets/curso/temas/34.png', alt='')              
-      .py-4.py-md-5.bg10(titulo="Espaciado entre muestras" :icono="require('@/assets/curso/temas/33.svg')")
+      .py-4.py-md-5.bg10(titulo="Número de muestras" :icono="require('@/assets/curso/temas/33.svg')")
         .px-5
           h5 Número de muestras
           p A la hora de abordar el planteamiento de la toma de muestras, los métodos estadísticos ayudan a determinar el número de muestras individuales que es necesario tomar para minimizar la variabilidad de los resultados finales, teniendo en cuenta la homogeneidad o heterogeneidad de la población objeto de la toma de muestras y el error máximo admisible, lo que ayudará a que la operación se realice dentro de un óptimo económico.  

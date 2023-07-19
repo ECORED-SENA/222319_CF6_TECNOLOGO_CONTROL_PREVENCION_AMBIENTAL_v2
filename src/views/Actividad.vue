@@ -10,8 +10,8 @@
             img(data-aos="zoom-in")(src="@/assets/template/Arrastrar_Soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="zoom-in-left")
-          h2 Relacionando el pictograma
-        p(data-aos="fade-down").mb-4 Relacionar cada pictograma con el nombre que le corresponde en el contexto del laboratorio y el análisis de muestras químicas.
+          h2 Relacionar términos
+        p(data-aos="fade-down").mb-4 De acuerdo al enunciado planteado en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
         .tarjeta.actividad(data-aos="flip-down").p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
